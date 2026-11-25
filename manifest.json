@@ -1,0 +1,345 @@
+{
+  "vault": "godot4-asset-vault",
+  "target_engine": "Godot 4.0+ (gl_compatibility / OpenGL ES 3.0, msaa_2d=0)",
+  "asset_count": 63,
+  "assets": [
+    {
+      "path": "tacplanshooter/tilesets/penthouse_floors_tileset.png",
+      "category": "tileset",
+      "size": "512x256",
+      "tile_size": 64,
+      "count": 32
+    },
+    {
+      "path": "tacplanshooter/tilesets/tactical_walls_cover_tileset.png",
+      "category": "tileset",
+      "size": "512x256",
+      "tile_size": 64,
+      "count": 32
+    },
+    {
+      "path": "tacplanshooter/textures/concrete_seamless_256.png",
+      "category": "texture",
+      "size": "256x256",
+      "seamless": true
+    },
+    {
+      "path": "tacplanshooter/textures/hardwood_penthouse_256.png",
+      "category": "texture",
+      "size": "256x256",
+      "seamless": true
+    },
+    {
+      "path": "tacplanshooter/textures/metal_grate_seamless_256.png",
+      "category": "texture",
+      "size": "256x256",
+      "seamless": true
+    },
+    {
+      "path": "tacplanshooter/textures/tactical_grid_overlay_256.png",
+      "category": "texture",
+      "size": "256x256",
+      "seamless": true
+    },
+    {
+      "path": "tacplanshooter/textures/fog_noise_256.png",
+      "category": "texture",
+      "size": "256x256",
+      "seamless": true
+    },
+    {
+      "path": "tacplanshooter/sprites/operators_sheet.png",
+      "category": "spritesheet",
+      "size": "256x256",
+      "frame_size": 64,
+      "grid": "4x4"
+    },
+    {
+      "path": "tacplanshooter/sprites/hostiles_sheet.png",
+      "category": "spritesheet",
+      "size": "256x256",
+      "frame_size": 64,
+      "grid": "4x4"
+    },
+    {
+      "path": "tacplanshooter/sprites/props_and_fx_sheet.png",
+      "category": "spritesheet",
+      "size": "256x256",
+      "frame_size": 64,
+      "grid": "4x4"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_draw_mode.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_draw_mode.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_tap_mode.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_tap_mode.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_breach.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_breach.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_flashbang.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_flashbang.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_smoke.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_smoke.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_stairs_up.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_stairs_up.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_stairs_down.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_stairs_down.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_briefing.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_briefing.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_intel.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_intel.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_roster.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_roster.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_kit.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_kit.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_team.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_team.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_play.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_play.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_pause.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_pause.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_rewind.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_rewind.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_shield.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_shield.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_target.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_target.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_waypoint.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_waypoint.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_lock.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_lock.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_lan_coop.png",
+      "category": "ui_icon_png",
+      "size": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/icons/icon_lan_coop.svg",
+      "category": "ui_icon_svg",
+      "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/ui/themes/tactical_hud_theme.tres",
+      "category": "ui_theme",
+      "engine": "Godot 4.0+"
+    },
+    {
+      "path": "tacplanshooter/shaders/tactical_fog_of_war.gdshader",
+      "category": "shader",
+      "renderer": "gl_compatibility"
+    },
+    {
+      "path": "tacplanshooter/shaders/tactical_hit_flash.gdshader",
+      "category": "shader",
+      "renderer": "gl_compatibility"
+    },
+    {
+      "path": "tacplanshooter/shaders/tactical_blueprint_grid.gdshader",
+      "category": "shader",
+      "renderer": "gl_compatibility"
+    },
+    {
+      "path": "tacplanshooter/shaders/tactical_selection_pulse.gdshader",
+      "category": "shader",
+      "renderer": "gl_compatibility"
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/ui_click_tactical.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.055
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/ui_waypoint_place.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.11
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/ui_confirm_go.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.18
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/ui_error_blocked.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.2
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/sfx_suppressed_shot.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.14
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/sfx_breach_charge.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.42
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/sfx_flashbang_pop.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.3
+    },
+    {
+      "path": "tacplanshooter/audio/sfx/sfx_door_unlock.wav",
+      "category": "audio_sfx",
+      "sample_rate": 44100,
+      "duration_sec": 0.16
+    }
+  ]
+}
