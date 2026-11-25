@@ -1,0 +1,23 @@
+[
+  {
+    "name": "archive_25d_tileset",
+    "diffuse": "sovereign_nodes_hd/tilesets/archive_25d_tileset.png",
+    "normal": "sovereign_nodes_hd/tilesets/archive_25d_tileset_n.png",
+    "specular": "sovereign_nodes_hd/tilesets/archive_25d_tileset_s.png",
+    "canvas_texture": "sovereign_nodes_hd/materials/archive_25d_tileset_canvas.tres"
+  },
+  {
+    "name": "characters_defects_25d_sheet",
+    "diffuse": "sovereign_nodes_hd/sprites/characters_defects_25d_sheet.png",
+    "normal": "sovereign_nodes_hd/sprites/characters_defects_25d_sheet_n.png",
+    "specular": "sovereign_nodes_hd/sprites/characters_defects_25d_sheet_s.png",
+    "canvas_texture": "sovereign_nodes_hd/materials/characters_defects_25d_sheet_canvas.tres"
+  },
+  {
+    "name": "archive_props_vfx_25d_sheet",
+    "diffuse": "sovereign_nodes_hd/sprites/archive_props_vfx_25d_sheet.png",
+    "normal": "sovereign_nodes_hd/sprites/archive_props_vfx_25d_sheet_n.png",
+    "specular": "sovereign_nodes_hd/sprites/archive_props_vfx_25d_sheet_s.png",
+    "canvas_texture": "sovereign_nodes_hd/materials/archive_props_vfx_25d_sheet_canvas.tres"
+  }
+]
