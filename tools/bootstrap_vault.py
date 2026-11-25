@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import json
 import math
-import os
 import random
 import struct
 import wave
@@ -47,6 +46,7 @@ def ensure_dirs() -> None:
         "tacplanshooter/tilesets",
         "tacplanshooter/textures",
         "tacplanshooter/sprites",
+        "tacplanshooter/resources",
         "tacplanshooter/ui/icons",
         "tacplanshooter/ui/themes",
         "tacplanshooter/shaders",
@@ -787,6 +787,163 @@ PanelContainer/styles/panel = SubResource("StyleBoxFlat_panel")
     return {"path": "tacplanshooter/ui/themes/tactical_hud_theme.tres", "category": "ui_theme", "engine": "Godot 4.0+"}
 
 
+def wall_collision_polygon(idx: int) -> str | None:
+    if idx == 12:
+        return None
+    polys = {
+        0: "-32, -12, 32, -12, 32, 12, -32, 12",
+        1: "-12, -32, 12, -32, 12, 32, -12, 32",
+        2: "-12, -12, 32, -12, 32, 32, -12, 32",
+        3: "-32, -12, 12, -12, 12, 32, -32, 32",
+        4: "-12, -32, 32, -32, 32, 12, -12, 12",
+        5: "-32, -32, 12, -32, 12, 12, -32, 12",
+        6: "-32, -12, 32, -12, 32, 32, -32, 32",
+        7: "-32, -32, 32, -32, 32, 32, -32, 32",
+        8: "-18, -18, 18, -18, 18, 18, -18, 18",
+        9: "-32, -6, 32, -6, 32, 6, -32, 6",
+        10: "-6, -32, 6, -32, 6, 32, -6, 32",
+        11: "-32, -12, 32, -12, 32, 12, -32, 12",
+        13: "-32, -12, 32, -12, 32, 12, -32, 12",
+        14: "-32, -12, 32, -12, 32, 12, -32, 12",
+        15: "-32, -12, 32, -12, 32, 12, -32, 12",
+        16: "-27, -17, 27, -17, 27, 17, -27, 17",
+        17: "-22, -13, 22, -13, 22, 13, -22, 13",
+        18: "-27, -22, 27, -22, 27, 22, -27, 22",
+        19: "-24, -26, 24, -26, 24, 26, -24, 26",
+        20: "-23, -23, 23, -23, 23, 23, -23, 23",
+        21: "-22, -22, 22, -22, 22, 22, -22, 22",
+        22: "-23, -18, 23, -18, 23, 18, -23, 18",
+    }
+    return polys.get(idx, "-19, -19, 19, -19, 19, 19, -19, 19")
+
+
+def write_tileset_tres() -> dict:
+    floor_lines = [f"{i % 8}:{i // 8}/0 = 0" for i in range(32)]
+    wall_lines: list[str] = []
+    for i in range(32):
+        cx, cy = i % 8, i // 8
+        wall_lines.append(f"{cx}:{cy}/0 = 0")
+        poly = wall_collision_polygon(i)
+        if poly is not None:
+            wall_lines.append(f"{cx}:{cy}/0/physics_layer_0/linear_velocity = Vector2(0, 0)")
+            wall_lines.append(f"{cx}:{cy}/0/physics_layer_0/angular_velocity = 0.0")
+            wall_lines.append(f"{cx}:{cy}/0/physics_layer_0/polygon_0/points = PackedVector2Array({poly})")
+
+    tres = (
+        '[gd_resource type="TileSet" load_steps=5 format=3]\n\n'
+        '[ext_resource type="Texture2D" path="res://tacplanshooter/tilesets/penthouse_floors_tileset.png" id="1_floors"]\n'
+        '[ext_resource type="Texture2D" path="res://tacplanshooter/tilesets/tactical_walls_cover_tileset.png" id="2_walls"]\n\n'
+        '[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_floors"]\n'
+        'resource_name = "PenthouseFloors"\n'
+        'texture = ExtResource("1_floors")\n'
+        'texture_region_size = Vector2i(64, 64)\n'
+        + "\n".join(floor_lines)
+        + "\n\n"
+        '[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_walls"]\n'
+        'resource_name = "TacticalWallsCover"\n'
+        'texture = ExtResource("2_walls")\n'
+        'texture_region_size = Vector2i(64, 64)\n'
+        + "\n".join(wall_lines)
+        + "\n\n"
+        "[resource]\n"
+        "tile_size = Vector2i(64, 64)\n"
+        "physics_layer_0/collision_layer = 1\n"
+        "physics_layer_0/collision_mask = 0\n"
+        'sources/0 = SubResource("TileSetAtlasSource_floors")\n'
+        'sources/1 = SubResource("TileSetAtlasSource_walls")\n'
+    )
+    p = ROOT / "tacplanshooter/resources/penthouse_tileset.tres"
+    p.write_text(tres, encoding="utf-8")
+    return {"path": "tacplanshooter/resources/penthouse_tileset.tres", "category": "godot_tileset", "tile_size": 64, "collision_layers": 1}
+
+
+def write_sprite_frames(
+    out_name: str,
+    texture_res_path: str,
+    anims: list[tuple[str, list[tuple[int, int]], float, bool]],
+) -> dict:
+    sub_blocks: list[str] = []
+    coord_to_id: dict[tuple[int, int], str] = {}
+    for _, frames, _, _ in anims:
+        for cx, cy in frames:
+            if (cx, cy) not in coord_to_id:
+                sid = f"AtlasTexture_{cx}_{cy}"
+                coord_to_id[(cx, cy)] = sid
+                sub_blocks.append(
+                    f'[sub_resource type="AtlasTexture" id="{sid}"]\n'
+                    'atlas = ExtResource("1_sheet")\n'
+                    f"region = Rect2({cx * 64}, {cy * 64}, 64, 64)\n"
+                )
+
+    anim_blocks: list[str] = []
+    for anim_name, frames, speed, loop in anims:
+        frame_items = ", ".join(
+            '{\n"duration": 1.0,\n"texture": SubResource("' + coord_to_id[c] + '")\n}'
+            for c in frames
+        )
+        loop_str = "true" if loop else "false"
+        anim_blocks.append(
+            "{\n"
+            f'"frames": [{frame_items}],\n'
+            f'"loop": {loop_str},\n'
+            f'"name": &"{anim_name}",\n'
+            f'"speed": {speed:.1f}\n'
+            "}"
+        )
+
+    load_steps = 1 + len(sub_blocks) + 1
+    tres = (
+        f'[gd_resource type="SpriteFrames" load_steps={load_steps} format=3]\n\n'
+        f'[ext_resource type="Texture2D" path="{texture_res_path}" id="1_sheet"]\n\n'
+        + "\n".join(sub_blocks)
+        + "\n[resource]\nanimations = ["
+        + ", ".join(anim_blocks)
+        + "]\n"
+    )
+    p = ROOT / "tacplanshooter/resources" / out_name
+    p.write_text(tres, encoding="utf-8")
+    return {"path": f"tacplanshooter/resources/{out_name}", "category": "godot_spriteframes", "animations": len(anims)}
+
+
+def write_godot_resources() -> list[dict]:
+    out = [write_tileset_tres()]
+
+    op_roles = ["pointman", "breacher", "recon", "shield"]
+    op_states = ["idle", "aim", "move", "crouch"]
+    op_anims = [
+        (f"{role}_{st}", [(col, row)], 6.0, True)
+        for row, role in enumerate(op_roles)
+        for col, st in enumerate(op_states)
+    ]
+    out.append(write_sprite_frames("operators_frames.tres", "res://tacplanshooter/sprites/operators_sheet.png", op_anims))
+
+    host_roles = ["guard", "enforcer", "heavy", "hvt"]
+    host_states = ["idle", "alert", "aim", "down"]
+    host_anims = [
+        (f"{role}_{st}", [(col, row)], 6.0, st != "down")
+        for row, role in enumerate(host_roles)
+        for col, st in enumerate(host_states)
+    ]
+    out.append(write_sprite_frames("hostiles_frames.tres", "res://tacplanshooter/sprites/hostiles_sheet.png", host_anims))
+
+    prop_anims = [
+        ("flashbang", [(0, 0)], 1.0, False),
+        ("smoke_grenade", [(1, 0)], 1.0, False),
+        ("breach_charge", [(2, 0)], 1.0, False),
+        ("medkit", [(3, 0)], 1.0, False),
+        ("intel_briefcase", [(0, 1)], 1.0, False),
+        ("keycard", [(1, 1)], 1.0, False),
+        ("waypoint_ring", [(2, 1)], 1.0, True),
+        ("target_lock", [(3, 1)], 1.0, True),
+        ("muzzle_flash", [(0, 2), (1, 2), (2, 2)], 18.0, False),
+        ("smoke_puff", [(3, 2), (0, 3), (1, 3)], 8.0, False),
+        ("spark_burst", [(2, 3)], 12.0, False),
+        ("scorch_decal", [(3, 3)], 1.0, False),
+    ]
+    out.append(write_sprite_frames("props_fx_frames.tres", "res://tacplanshooter/sprites/props_and_fx_sheet.png", prop_anims))
+    return out
+
+
 def write_root_docs(manifest_entries: list[dict]) -> None:
     (ROOT / ".gitignore").write_text(
         ".godot/\n*.import\n__pycache__/\n*.pyc\n.DS_Store\nThumbs.db\n",
@@ -823,6 +980,7 @@ Built specifically for **TacPlanShooter** (Godot 4.0, `gl_compatibility` OpenGL 
 | Folder | Contents |
 | --- | --- |
 | `tacplanshooter/tilesets/` | `penthouse_floors_tileset.png` (512x256, 8x4 x 64px) & `tactical_walls_cover_tileset.png` (512x256, 8x4 x 64px) |
+| `tacplanshooter/resources/` | Ready-to-drop Godot 4.0 `.tres` resources: `penthouse_tileset.tres` (collision polygons pre-wired on physics layer 0), `operators_frames.tres`, `hostiles_frames.tres`, `props_fx_frames.tres` |
 | `tacplanshooter/textures/` | 5 seamless 256x256 textures (concrete, penthouse hardwood, metal grate, tactical blueprint grid overlay, fog-of-war value noise) |
 | `tacplanshooter/sprites/` | `operators_sheet.png`, `hostiles_sheet.png`, `props_and_fx_sheet.png` (each 256x256, 4x4 x 64px, `+X` Godot 2D forward orientation) |
 | `tacplanshooter/ui/icons/` | 20 tactical UI icons in both 64x64 PNG and scalable SVG (`DRAW`/`TAP`, Breach, Flashbang, Smoke, Stairs Up/Down, Briefing/Intel/Roster/Kit/Team, Replay controls, LAN Co-op, Shield, Target, Waypoint, Lock) |
@@ -832,6 +990,7 @@ Built specifically for **TacPlanShooter** (Godot 4.0, `gl_compatibility` OpenGL 
 
 ## Godot 4 Import Notes
 
+- **Drop-in `.tres` Resources:** Copy the `tacplanshooter/` folder into your Godot project root so `res://tacplanshooter/...` paths resolve automatically. `penthouse_tileset.tres` maps physics collision layer 0 to all solid walls, closed doors, pillars, and cover while leaving floor tiles and open doorways walkable.
 - **Sprites & Tilesets:** Import with `Mipmaps: Off`, `Filter: Linear` (or `Nearest` for crisp pixel lock), `Compress Mode: Lossless` for UI icons and `VRAM Compressed` for 256x256 seamless floor textures.
 - **Shaders:** All `.gdshader` files use pure `canvas_item` math with zero MSAA or Forward+ dependencies.
 
@@ -903,6 +1062,7 @@ def main() -> None:
         entries.append({"path": f"tacplanshooter/ui/icons/{name}.png", "category": "ui_icon_png", "size": "64x64"})
         entries.append({"path": f"tacplanshooter/ui/icons/{name}.svg", "category": "ui_icon_svg", "viewbox": "64x64"})
 
+    entries.extend(write_godot_resources())
     entries.append(write_theme())
     entries.extend(write_shaders())
     entries.extend(generate_sfx())

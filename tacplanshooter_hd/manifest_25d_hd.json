@@ -1,0 +1,38 @@
+[
+  {
+    "name": "spacegrunts_25d_tileset",
+    "diffuse": "tacplanshooter_hd/tilesets/spacegrunts_25d_tileset.png",
+    "normal": "tacplanshooter_hd/tilesets/spacegrunts_25d_tileset_n.png",
+    "specular": "tacplanshooter_hd/tilesets/spacegrunts_25d_tileset_s.png",
+    "canvas_texture": "tacplanshooter_hd/materials/spacegrunts_25d_tileset_canvas.tres",
+    "size": "1024x1024",
+    "grid": "4x4 (256x256 per cell)"
+  },
+  {
+    "name": "operators_25d_sheet",
+    "diffuse": "tacplanshooter_hd/sprites/operators_25d_sheet.png",
+    "normal": "tacplanshooter_hd/sprites/operators_25d_sheet_n.png",
+    "specular": "tacplanshooter_hd/sprites/operators_25d_sheet_s.png",
+    "canvas_texture": "tacplanshooter_hd/materials/operators_25d_sheet_canvas.tres",
+    "size": "1024x1024",
+    "grid": "4x4 (256x256 per cell)"
+  },
+  {
+    "name": "hostiles_25d_sheet",
+    "diffuse": "tacplanshooter_hd/sprites/hostiles_25d_sheet.png",
+    "normal": "tacplanshooter_hd/sprites/hostiles_25d_sheet_n.png",
+    "specular": "tacplanshooter_hd/sprites/hostiles_25d_sheet_s.png",
+    "canvas_texture": "tacplanshooter_hd/materials/hostiles_25d_sheet_canvas.tres",
+    "size": "1024x1024",
+    "grid": "4x4 (256x256 per cell)"
+  },
+  {
+    "name": "props_vfx_25d_sheet",
+    "diffuse": "tacplanshooter_hd/sprites/props_vfx_25d_sheet.png",
+    "normal": "tacplanshooter_hd/sprites/props_vfx_25d_sheet_n.png",
+    "specular": "tacplanshooter_hd/sprites/props_vfx_25d_sheet_s.png",
+    "canvas_texture": "tacplanshooter_hd/materials/props_vfx_25d_sheet_canvas.tres",
+    "size": "1024x1024",
+    "grid": "4x4 (256x256 per cell)"
+  }
+]

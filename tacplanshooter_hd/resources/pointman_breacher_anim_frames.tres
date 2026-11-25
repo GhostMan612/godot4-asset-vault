@@ -1,0 +1,138 @@
+[gd_resource type="SpriteFrames" load_steps=18 format=3]
+
+[ext_resource type="CanvasTexture" path="res://tacplanshooter_hd/materials/operators_pointman_breacher_anim_canvas.tres" id="1_canvas"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0_0"]
+atlas = ExtResource("1_canvas")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1_0"]
+atlas = ExtResource("1_canvas")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2_0"]
+atlas = ExtResource("1_canvas")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3_0"]
+atlas = ExtResource("1_canvas")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0_1"]
+atlas = ExtResource("1_canvas")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1_1"]
+atlas = ExtResource("1_canvas")
+region = Rect2(256, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2_1"]
+atlas = ExtResource("1_canvas")
+region = Rect2(512, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3_1"]
+atlas = ExtResource("1_canvas")
+region = Rect2(768, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0_2"]
+atlas = ExtResource("1_canvas")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1_2"]
+atlas = ExtResource("1_canvas")
+region = Rect2(256, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2_2"]
+atlas = ExtResource("1_canvas")
+region = Rect2(512, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3_2"]
+atlas = ExtResource("1_canvas")
+region = Rect2(768, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0_3"]
+atlas = ExtResource("1_canvas")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1_3"]
+atlas = ExtResource("1_canvas")
+region = Rect2(256, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2_3"]
+atlas = ExtResource("1_canvas")
+region = Rect2(512, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3_3"]
+atlas = ExtResource("1_canvas")
+region = Rect2(768, 768, 256, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3_0")
+}],
+"loop": true,
+"name": &"pointman_walk",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3_1")
+}],
+"loop": false,
+"name": &"pointman_shoot",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3_2")
+}],
+"loop": true,
+"name": &"breacher_walk",
+"speed": 7.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3_3")
+}],
+"loop": false,
+"name": &"breacher_shoot",
+"speed": 10.0
+}]

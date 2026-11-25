@@ -1,7 +1,7 @@
 {
   "vault": "godot4-asset-vault",
   "target_engine": "Godot 4.0+ (gl_compatibility / OpenGL ES 3.0, msaa_2d=0)",
-  "asset_count": 63,
+  "asset_count": 67,
   "assets": [
     {
       "path": "tacplanshooter/tilesets/penthouse_floors_tileset.png",
@@ -267,6 +267,27 @@
       "path": "tacplanshooter/ui/icons/icon_lan_coop.svg",
       "category": "ui_icon_svg",
       "viewbox": "64x64"
+    },
+    {
+      "path": "tacplanshooter/resources/penthouse_tileset.tres",
+      "category": "godot_tileset",
+      "tile_size": 64,
+      "collision_layers": 1
+    },
+    {
+      "path": "tacplanshooter/resources/operators_frames.tres",
+      "category": "godot_spriteframes",
+      "animations": 16
+    },
+    {
+      "path": "tacplanshooter/resources/hostiles_frames.tres",
+      "category": "godot_spriteframes",
+      "animations": 16
+    },
+    {
+      "path": "tacplanshooter/resources/props_fx_frames.tres",
+      "category": "godot_spriteframes",
+      "animations": 12
     },
     {
       "path": "tacplanshooter/ui/themes/tactical_hud_theme.tres",
