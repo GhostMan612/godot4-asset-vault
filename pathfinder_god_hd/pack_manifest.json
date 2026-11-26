@@ -1,0 +1,26 @@
+{
+  "pack": "pathfinder_god_hd",
+  "generated_at": "2026-11-26T21:51:43.709568+00:00",
+  "tokens": [
+    "tokens/hero_occult_investigator.png",
+    "tokens/hero_eldritch_scholar.png",
+    "tokens/hero_lantern_warden.png",
+    "tokens/hero_void_ranger.png",
+    "tokens/monster_star_spawn.png",
+    "tokens/monster_shoggoth.png",
+    "tokens/monster_void_cultist.png",
+    "tokens/monster_astral_hound.png"
+  ],
+  "ui": [
+    "ui/eldritch_hud_sheet.png",
+    "ui/hud_piece_01.png",
+    "ui/hud_piece_02.png",
+    "ui/hud_piece_03.png",
+    "ui/hud_piece_04.png",
+    "ui/hud_piece_05.png",
+    "ui/hud_piece_06.png",
+    "ui/hud_piece_07.png",
+    "ui/hud_piece_08.png",
+    "ui/hud_piece_09.png"
+  ]
+}
