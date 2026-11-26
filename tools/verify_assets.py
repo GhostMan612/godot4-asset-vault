@@ -5,11 +5,11 @@
 # ============================================================
 import argparse
 import re
+import struct
 import subprocess
 import sys
+import zlib
 from pathlib import Path
-
-from PIL import Image
 
 ASSET_SUFFIXES = {".png", ".svg", ".wav"}
 REFERENCE_FILES = [
@@ -19,8 +19,36 @@ REFERENCE_FILES = [
 
 
 def tracked(root: Path, rel: Path) -> bool:
-    result = subprocess.run(["git", "-C", str(root), "ls-files", "--error-unmatch", rel.as_posix()], capture_output=True)
+    repo = root
+    parts = rel.parts
+    if len(parts) > 2 and parts[0] == "addons" and parts[1] == "godot4-asset-vault":
+        repo = root / "addons" / "godot4-asset-vault"
+        rel = Path(*parts[2:])
+    result = subprocess.run(["git", "-C", str(repo), "ls-files", "--error-unmatch", rel.as_posix()], capture_output=True)
     return result.returncode == 0
+
+
+def png_alpha(path: Path) -> tuple:
+    data = path.read_bytes()
+    if data[:8] != b"\x89PNG\r\n\x1a\n":
+        return (False, 255)
+    pos, ihdr, idat = 8, None, bytearray()
+    while pos + 8 <= len(data):
+        size = struct.unpack(">I", data[pos:pos + 4])[0]
+        kind = data[pos + 4:pos + 8]
+        chunk = data[pos + 8:pos + 8 + size]
+        if kind == b"IHDR":
+            ihdr = struct.unpack(">IIBBBBB", chunk)
+        elif kind == b"IDAT":
+            idat.extend(chunk)
+        pos += 12 + size
+    if ihdr is None:
+        return (False, 255)
+    width, height, depth, color, _, _, interlace = ihdr
+    if depth != 8 or color != 6 or interlace != 0:
+        return (False, 255)
+    raw = zlib.decompress(bytes(idat))
+    return (True, raw[4])
 
 
 def main() -> int:
@@ -50,15 +78,13 @@ def main() -> int:
             if "sprites" not in path.parts:
                 continue
             try:
-                im = Image.open(path)
-                if im.mode != "RGBA":
+                rgba, corner_alpha = png_alpha(path)
+                if not rgba:
                     print(f"NOT RGBA {path.relative_to(root)}")
                     failures += 1
-                else:
-                    alpha = im.getchannel("A")
-                    if min(alpha.getpixel((0, 0)), alpha.getpixel((im.width - 1, 0))) != 0:
-                        print(f"OPAQUE EDGE {path.relative_to(root)}")
-                        failures += 1
+                elif corner_alpha != 0:
+                    print(f"OPAQUE EDGE {path.relative_to(root)}")
+                    failures += 1
             except Exception as exc:
                 print(f"BAD IMAGE {path.relative_to(root)} {exc}")
                 failures += 1
@@ -82,3 +108,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
