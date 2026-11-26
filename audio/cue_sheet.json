@@ -1,0 +1,21 @@
+{
+  "pack": "tacplanshooter",
+  "source_dir": "tacplanshooter/audio/sfx",
+  "output_dir": "tacplanshooter/audio/packed",
+  "buses": [
+    {"name": "Music", "send": "Master", "volume_db": -6.0},
+    {"name": "SFX", "send": "Master", "volume_db": -3.0},
+    {"name": "VOX", "send": "Master", "volume_db": 0.0},
+    {"name": "Ambience", "send": "Master", "volume_db": -9.0}
+  ],
+  "cues": [
+    {"id": "sfx_breach_charge", "source": "sfx_breach_charge.wav", "role": "sfx", "bus": "SFX", "target_peak_db": -1.5, "fade_ms": 3, "loop": false},
+    {"id": "sfx_door_unlock", "source": "sfx_door_unlock.wav", "role": "sfx", "bus": "SFX", "target_peak_db": -1.5, "fade_ms": 2, "loop": false},
+    {"id": "sfx_flashbang_pop", "source": "sfx_flashbang_pop.wav", "role": "sfx", "bus": "SFX", "target_peak_db": -1.5, "fade_ms": 2, "loop": false},
+    {"id": "sfx_suppressed_shot", "source": "sfx_suppressed_shot.wav", "role": "sfx", "bus": "SFX", "target_peak_db": -2.0, "fade_ms": 1, "loop": false},
+    {"id": "ui_click_tactical", "source": "ui_click_tactical.wav", "role": "ui", "bus": "SFX", "target_peak_db": -3.0, "fade_ms": 1, "loop": false},
+    {"id": "ui_confirm_go", "source": "ui_confirm_go.wav", "role": "ui", "bus": "SFX", "target_peak_db": -3.0, "fade_ms": 2, "loop": false},
+    {"id": "ui_error_blocked", "source": "ui_error_blocked.wav", "role": "ui", "bus": "SFX", "target_peak_db": -3.0, "fade_ms": 2, "loop": false},
+    {"id": "ui_waypoint_place", "source": "ui_waypoint_place.wav", "role": "ui", "bus": "SFX", "target_peak_db": -3.0, "fade_ms": 2, "loop": false}
+  ]
+}

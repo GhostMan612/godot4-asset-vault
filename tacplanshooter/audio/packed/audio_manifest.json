@@ -1,0 +1,157 @@
+{
+  "pack": "tacplanshooter",
+  "cue_sheet": "audio\\cue_sheet.json",
+  "cue_sheet_sha256": "b68752be7ab9ac92",
+  "buses": [
+    {
+      "name": "Music",
+      "send": "Master",
+      "volume_db": -6.0
+    },
+    {
+      "name": "SFX",
+      "send": "Master",
+      "volume_db": -3.0
+    },
+    {
+      "name": "VOX",
+      "send": "Master",
+      "volume_db": 0.0
+    },
+    {
+      "name": "Ambience",
+      "send": "Master",
+      "volume_db": -9.0
+    }
+  ],
+  "cues": [
+    {
+      "id": "sfx_breach_charge",
+      "source": "tacplanshooter/audio/sfx/sfx_breach_charge.wav",
+      "target": "tacplanshooter/audio/packed/sfx_breach_charge.wav",
+      "role": "sfx",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.42,
+      "peak_db": -1.5,
+      "rms_db": -13.99,
+      "sha256_16": "7d9e99f486712b61",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "sfx_door_unlock",
+      "source": "tacplanshooter/audio/sfx/sfx_door_unlock.wav",
+      "target": "tacplanshooter/audio/packed/sfx_door_unlock.wav",
+      "role": "sfx",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.16,
+      "peak_db": -1.5,
+      "rms_db": -10.91,
+      "sha256_16": "8d6e1e2971d3fdb4",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "sfx_flashbang_pop",
+      "source": "tacplanshooter/audio/sfx/sfx_flashbang_pop.wav",
+      "target": "tacplanshooter/audio/packed/sfx_flashbang_pop.wav",
+      "role": "sfx",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.3,
+      "peak_db": -1.5,
+      "rms_db": -17.25,
+      "sha256_16": "1740baf99235e704",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "sfx_suppressed_shot",
+      "source": "tacplanshooter/audio/sfx/sfx_suppressed_shot.wav",
+      "target": "tacplanshooter/audio/packed/sfx_suppressed_shot.wav",
+      "role": "sfx",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.14,
+      "peak_db": -2.0,
+      "rms_db": -18.54,
+      "sha256_16": "9afcfb0426585822",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "ui_click_tactical",
+      "source": "tacplanshooter/audio/sfx/ui_click_tactical.wav",
+      "target": "tacplanshooter/audio/packed/ui_click_tactical.wav",
+      "role": "ui",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.055,
+      "peak_db": -3.63,
+      "rms_db": -14.82,
+      "sha256_16": "3e9c22df9fb2bcee",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "ui_confirm_go",
+      "source": "tacplanshooter/audio/sfx/ui_confirm_go.wav",
+      "target": "tacplanshooter/audio/packed/ui_confirm_go.wav",
+      "role": "ui",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.18,
+      "peak_db": -3.27,
+      "rms_db": -13.18,
+      "sha256_16": "32b38f6c14badac1",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "ui_error_blocked",
+      "source": "tacplanshooter/audio/sfx/ui_error_blocked.wav",
+      "target": "tacplanshooter/audio/packed/ui_error_blocked.wav",
+      "role": "ui",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.2,
+      "peak_db": -4.54,
+      "rms_db": -15.09,
+      "sha256_16": "67fe224c3005f0cc",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    },
+    {
+      "id": "ui_waypoint_place",
+      "source": "tacplanshooter/audio/sfx/ui_waypoint_place.wav",
+      "target": "tacplanshooter/audio/packed/ui_waypoint_place.wav",
+      "role": "ui",
+      "bus": "SFX",
+      "loop": false,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.11,
+      "peak_db": -3.43,
+      "rms_db": -16.27,
+      "sha256_16": "779534bc6868d4a6",
+      "license": "CC0-1.0",
+      "source_url": "local procedural generation"
+    }
+  ]
+}

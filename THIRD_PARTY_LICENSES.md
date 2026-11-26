@@ -31,3 +31,18 @@
 | `ph_corrugated_iron` | Poly Haven | CC0-1.0 | https://polyhaven.com/a/corrugated_iron | albedo, ao, metallic, normal, roughness | 2.3 |
 | `ph_distressed_painted_planks` | Poly Haven | CC0-1.0 | https://polyhaven.com/a/distressed_painted_planks | albedo, ao, normal, roughness | 1.27 |
 <!-- CC0_PBR_END -->
+
+<!-- AUDIO_START -->
+## Audio Cues
+
+| Cue | Role | License | Source | Bus |
+| :--- | :--- | :--- | :--- | :--- |
+| `sfx_breach_charge` | sfx | CC0-1.0 | local procedural generation | SFX |
+| `sfx_door_unlock` | sfx | CC0-1.0 | local procedural generation | SFX |
+| `sfx_flashbang_pop` | sfx | CC0-1.0 | local procedural generation | SFX |
+| `sfx_suppressed_shot` | sfx | CC0-1.0 | local procedural generation | SFX |
+| `ui_click_tactical` | ui | CC0-1.0 | local procedural generation | SFX |
+| `ui_confirm_go` | ui | CC0-1.0 | local procedural generation | SFX |
+| `ui_error_blocked` | ui | CC0-1.0 | local procedural generation | SFX |
+| `ui_waypoint_place` | ui | CC0-1.0 | local procedural generation | SFX |
+<!-- AUDIO_END -->
