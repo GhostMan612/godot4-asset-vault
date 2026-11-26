@@ -1,0 +1,36 @@
+{
+  "default": "tactical_compound",
+  "textures": {
+    "floor": [
+      "res://assets/textures/concrete_seamless_256.png",
+      "res://assets/textures/metal_grate_seamless_256.png",
+      "res://assets/textures/tactical_grid_overlay_256.png",
+      "res://assets/textures/spacegrunts_25d_expansion_tileset.png"
+    ],
+    "floor_normal": "res://assets/textures/spacegrunts_25d_tileset_n.png",
+    "wall_top_cap": "res://assets/textures/spacegrunts_25d_tileset.png",
+    "wall_face": [
+      "res://assets/textures/spacegrunts_25d_tileset.png",
+      "res://assets/textures/spacegrunts_25d_expansion_tileset.png",
+      "res://assets/textures/concrete_seamless_256.png",
+      "res://assets/textures/metal_grate_seamless_256.png"
+    ],
+    "wall_normal": "res://assets/textures/spacegrunts_25d_tileset_n.png",
+    "wall_ao": "res://assets/textures/fog_noise_256.png",
+    "doors": {
+      "CLOSED_UNLOCKED": "res://assets/textures/spacegrunts_25d_tileset.png",
+      "LOCKED": "res://assets/textures/spacegrunts_25d_tileset.png",
+      "BARRICADED": "res://assets/textures/spacegrunts_25d_tileset.png",
+      "OPEN": "res://assets/textures/spacegrunts_25d_tileset.png",
+      "BREACHED": "res://assets/textures/spacegrunts_25d_expansion_tileset.png"
+    },
+    "props_atlas": "res://assets/sprites/units_and_vehicles_sheet.png"
+  },
+  "themes": [
+    {"id": "tactical_compound", "palette": {"floor_tint": [0.94, 0.97, 1.0, 1.0], "fog_color": [0.05, 0.08, 0.12, 0.55], "light_color": [0.85, 0.93, 1.0, 1.0], "grid_color": [0.06, 0.14, 0.20, 0.14]}},
+    {"id": "industrial_warehouse", "palette": {"floor_tint": [0.98, 0.90, 0.80, 1.0], "fog_color": [0.11, 0.07, 0.04, 0.58], "light_color": [1.0, 0.80, 0.55, 1.0], "grid_color": [0.18, 0.11, 0.05, 0.16]}},
+    {"id": "moonbase_lab", "palette": {"floor_tint": [0.82, 0.94, 1.0, 1.0], "fog_color": [0.02, 0.06, 0.14, 0.62], "light_color": [0.62, 0.88, 1.0, 1.0], "grid_color": [0.05, 0.20, 0.28, 0.17]}},
+    {"id": "bank_vault", "palette": {"floor_tint": [1.0, 0.96, 0.82, 1.0], "fog_color": [0.10, 0.08, 0.03, 0.52], "light_color": [1.0, 0.92, 0.68, 1.0], "grid_color": [0.22, 0.17, 0.05, 0.15]}},
+    {"id": "ancestral_crypt", "palette": {"floor_tint": [0.82, 0.94, 0.86, 1.0], "fog_color": [0.03, 0.09, 0.06, 0.64], "light_color": [0.66, 0.92, 0.72, 1.0], "grid_color": [0.05, 0.16, 0.10, 0.17]}}
+  ]
+}
