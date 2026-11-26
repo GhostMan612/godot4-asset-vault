@@ -1,0 +1,18 @@
+{
+  "theme_id": "tactical_compound",
+  "floor_tiles": 4,
+  "wall_face_variants": 4,
+  "props": 4,
+  "palette": {
+    "floor": "#18222E",
+    "wall": "#0E151F",
+    "trim": "#4B5E75"
+  },
+  "grid_color": [
+    0.06,
+    0.14,
+    0.2,
+    0.14
+  ],
+  "provenance": "ORIGINAL_PROCEDURAL"
+}

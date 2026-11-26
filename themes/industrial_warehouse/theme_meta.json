@@ -1,0 +1,18 @@
+{
+  "theme_id": "industrial_warehouse",
+  "floor_tiles": 4,
+  "wall_face_variants": 4,
+  "props": 4,
+  "palette": {
+    "floor": "#302820",
+    "wall": "#201C18",
+    "trim": "#C89628"
+  },
+  "grid_color": [
+    0.18,
+    0.11,
+    0.05,
+    0.16
+  ],
+  "provenance": "ORIGINAL_PROCEDURAL"
+}

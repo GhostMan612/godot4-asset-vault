@@ -1,0 +1,18 @@
+{
+  "theme_id": "ancestral_crypt",
+  "floor_tiles": 4,
+  "wall_face_variants": 4,
+  "props": 4,
+  "palette": {
+    "floor": "#222C26",
+    "wall": "#161E1A",
+    "trim": "#6E8C6E"
+  },
+  "grid_color": [
+    0.05,
+    0.16,
+    0.1,
+    0.17
+  ],
+  "provenance": "ORIGINAL_PROCEDURAL"
+}

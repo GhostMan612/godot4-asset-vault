@@ -1,0 +1,279 @@
+{
+  "assets": [
+    {
+      "path": "themes/ancestral_crypt/floor_atlas.png",
+      "bytes": 433,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "a629e3e6817bb90a88a8266c485116c54a2a8612f653c8952b88ab8c14a010e9",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/ancestral_crypt/floor_atlas_n.png",
+      "bytes": 611,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "5904337bd9333475352f50a2dc7dd82b818ce871fb774e702eea2887c08b8a47",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/ancestral_crypt/props_atlas.png",
+      "bytes": 441,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "feee53bb6f12bf46d0a96277b6182abdc4d9e51578fded0d72013f4a7d13e7d7",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/ancestral_crypt/wall_atlas.png",
+      "bytes": 363,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "c16790aecb9bf9ce351df3534646cfbc27b53fbbf0bc777f36771dc3f58c6ef4",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/ancestral_crypt/wall_atlas_n.png",
+      "bytes": 484,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "fc7ae2da7c1eb72ebfeece58745a9d9d7c7d9b19e470844fa4e0fa7080d54483",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/bank_vault/floor_atlas.png",
+      "bytes": 431,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "1e2bff990873affb9d74f7c765661f3aa5010cac5ca45294b0f07a361b1badf7",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/bank_vault/floor_atlas_n.png",
+      "bytes": 545,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "75efdf4a0f1f81eb0b3480cd34925da8892593702b020279255197410e4e2804",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/bank_vault/props_atlas.png",
+      "bytes": 449,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "7e2d24824cb93a70499fcbd1e9bc72ae7e46e3eb4f70a23b8f722b671eaf6632",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/bank_vault/wall_atlas.png",
+      "bytes": 363,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "63c4fbe3c7734e1cfb32b157825cc9e8555a8dee843c5c5c18e8a99bc60cf7e0",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/bank_vault/wall_atlas_n.png",
+      "bytes": 484,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "cce44e154c4b2f99bbe00d98493d7a99fb03f105535ddbfb0af9aca0fe6a2674",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/industrial_warehouse/floor_atlas.png",
+      "bytes": 444,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "d9b92396cfef64a6e0b794203b20c34990d85cc4291a999c2b40dc29cfe1fe26",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/industrial_warehouse/floor_atlas_n.png",
+      "bytes": 542,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "6804c4486783f85913c274a11bc1e9ef0a145487c740692ca58a8aaa76258db8",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/industrial_warehouse/props_atlas.png",
+      "bytes": 450,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "05a2caf5a81a0df9523435ef4bb7a0679367c1c5136eb54101131fd1c4712204",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/industrial_warehouse/wall_atlas.png",
+      "bytes": 363,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "256f80850ad30b11a191df12544afed787207677b4f661f064cae93a8dbb57af",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/industrial_warehouse/wall_atlas_n.png",
+      "bytes": 484,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "76d7232bbdea508377204f997d0427f6662df580e0648ac910b88fd6db84f76c",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/moonbase_lab/floor_atlas.png",
+      "bytes": 446,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "6ab46370f63c33628d269c71929f4ecb1282931111a0d29d075c0c491a6cc6d0",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/moonbase_lab/floor_atlas_n.png",
+      "bytes": 543,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "e810fdd11a1cfb486620c2c4446674e0b803a59321a6d4a3398cbb03e7e2e5d0",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/moonbase_lab/props_atlas.png",
+      "bytes": 448,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "fd1fb36832e29381be8ffd58b86e25ab3d2e0dfe43766455273ee92d16f73d26",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/moonbase_lab/wall_atlas.png",
+      "bytes": 362,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "a12d874efdc53347ca4e7c19b418472bfdd71fbd9bd0dda6523187073d6aefff",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/moonbase_lab/wall_atlas_n.png",
+      "bytes": 484,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "0256083caca6f6300ad83f85cb7b2b4656e628edc6bec30e6c6d21f006479953",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/tactical_compound/floor_atlas.png",
+      "bytes": 431,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "3619f306cfeaa880f6091ab58dab6d7249d611ad482eb6e7e574eebfc2e9baea",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/tactical_compound/floor_atlas_n.png",
+      "bytes": 623,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "89d748be2db3f34fafa75cc7a6ca8512b88927604202a8753b9d6c3750854249",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/tactical_compound/props_atlas.png",
+      "bytes": 447,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "c8ea39f7fea21c9fea02bf26f4d46f89de3033f449ad1f790a2478e752e76e2d",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/tactical_compound/wall_atlas.png",
+      "bytes": 365,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "fcbb91d77298457659c975a2f3b0232afe2be3ef9217309cca03f6bee869d1af",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    },
+    {
+      "path": "themes/tactical_compound/wall_atlas_n.png",
+      "bytes": 487,
+      "dimensions": [
+        256,
+        64
+      ],
+      "rgba": true,
+      "sha256": "0a4bc408545724bf5003b74657d5a60a27be854d2b19d7ed992b635a9a27cf85",
+      "provenance": "ORIGINAL_PROCEDURAL"
+    }
+  ]
+}
