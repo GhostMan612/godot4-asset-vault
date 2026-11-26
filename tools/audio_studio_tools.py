@@ -27,7 +27,16 @@ from typing import Callable
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
-OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+
+
+def _ollama_base_url() -> str:
+    value = os.environ.get("OLLAMA_HOST", "http://localhost:11434").strip()
+    if "://" not in value:
+        value = "http://" + value
+    return value.rstrip("/")
+
+
+OLLAMA_HOST = _ollama_base_url()
 
 
 # ---------------------------------------------------------------------------
@@ -66,6 +75,53 @@ def _lin_to_db(value: float) -> float:
     return 20.0 * math.log10(max(value, 1e-9))
 
 
+def _sanitize_cues(raw_cues: object, source_dir: Path) -> list[dict]:
+    allowed_roles = {"sfx", "ui", "vox", "bgm", "ambience"}
+    allowed_buses = {"SFX", "VOX", "Music", "Ambience"}
+    bus_aliases = {"UI": "SFX", "MUSIC": "Music", "SFX": "SFX", "VOX": "VOX", "AMBIENCE": "Ambience"}
+    sources = sorted(p.name for p in source_dir.glob("*.wav"))
+    result: list[dict] = []
+    if not isinstance(raw_cues, list):
+        return result
+    for idx, item in enumerate(raw_cues):
+        if not isinstance(item, dict):
+            continue
+        source = str(item.get("source", ""))
+        if source not in sources:
+            source = sources[idx % len(sources)] if sources else str(item.get("source", ""))
+        role = str(item.get("role", "sfx")).lower()
+        if role not in allowed_roles:
+            role = "ui" if source.startswith("ui_") else "sfx"
+        bus = str(item.get("bus", "SFX")).upper()
+        bus = bus_aliases.get(bus, str(item.get("bus", "SFX")))
+        if bus not in allowed_buses:
+            bus = "SFX"
+        try:
+            peak = float(item.get("target_peak_db", -1.5))
+        except (TypeError, ValueError):
+            peak = -1.5
+        peak = max(-12.0, min(-1.0, peak))
+        try:
+            fade = int(item.get("fade_ms", 2))
+        except (TypeError, ValueError):
+            fade = 2
+        fade = max(0, min(20, fade))
+        cue_id = str(item.get("id", "")).strip() or f"cue_{idx + 1}"
+        cue_id = "".join(ch if ch.isalnum() or ch in "_-" else "_" for ch in cue_id.lower())
+        result.append(
+            {
+                "id": cue_id,
+                "source": source,
+                "role": role,
+                "bus": bus,
+                "target_peak_db": peak,
+                "fade_ms": fade,
+                "loop": bool(item.get("loop", False)),
+            }
+        )
+    return result
+
+
 def _ollama_generate(model: str, prompt: str) -> str | None:
     payload = json.dumps({"model": model, "prompt": prompt, "format": "json", "stream": False}).encode("utf-8")
     req = urllib.request.Request(
@@ -75,7 +131,7 @@ def _ollama_generate(model: str, prompt: str) -> str | None:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             body = json.loads(resp.read().decode("utf-8"))
         return str(body.get("response", ""))
     except (urllib.error.URLError, TimeoutError, ValueError):
@@ -107,7 +163,7 @@ def generate_cue_sheet(arguments: dict) -> dict:
     source_dir = ROOT / str(arguments.get("source_dir", "tacplanshooter/audio/sfx"))
     output_dir = str(arguments.get("output_dir", f"{pack}/audio/packed"))
     use_llm = bool(arguments.get("use_llm", True))
-    model = str(arguments.get("model", "llama3.2"))
+    model = str(arguments.get("model", "qwen2.5:3b"))
 
     cue_list = None
     llm_used = False
@@ -117,14 +173,19 @@ def generate_cue_sheet(arguments: dict) -> dict:
             "\"sfx\"|\"ui\"|\"vox\"|\"bgm\"|\"ambience\",\"bus\":"
             "\"SFX\"|\"VOX\"|\"Music\"|\"Ambience\",\"target_peak_db\":number,"
             "\"fade_ms\":number,\"loop\":bool}]}. "
+            "Use only the listed source filenames. "
+            "target_peak_db must be between -6.0 and -1.0. "
+            "fade_ms must be an integer between 0 and 10. "
+            "Bus must be exactly SFX, VOX, Music or Ambience. "
             f"Brief: {brief}. Source files: "
             + ", ".join(p.name for p in sorted(source_dir.glob("*.wav")))
         )
         raw = _ollama_generate(model, prompt)
         if raw:
             try:
-                cue_list = json.loads(raw).get("cues")
-                llm_used = True
+                cleaned = raw.strip().removeprefix("```json").removesuffix("```").strip()
+                cue_list = _sanitize_cues(json.loads(cleaned).get("cues"), source_dir)
+                llm_used = bool(cue_list)
             except (ValueError, AttributeError):
                 cue_list = None
 
