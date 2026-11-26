@@ -1,0 +1,404 @@
+{
+  "generated_at": "2026-11-26T21:25:00.036580+00:00",
+  "license": "CC0-1.0",
+  "materials": [
+    {
+      "id": "acg_bricks097",
+      "provider": "ambientCG",
+      "upstream_id": "Bricks097",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Bricks097",
+      "target": "vendor/pbr_materials/acg_bricks097",
+      "maps": {
+        "ao": "Bricks097_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "Bricks097_1K-JPG_Color.jpg",
+        "normal": "Bricks097_1K-JPG_NormalGL.jpg",
+        "roughness": "Bricks097_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 2.37,
+      "synced_at": "2026-11-26T21:24:48.286437+00:00"
+    },
+    {
+      "id": "acg_concrete034",
+      "provider": "ambientCG",
+      "upstream_id": "Concrete034",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Concrete034",
+      "target": "vendor/pbr_materials/acg_concrete034",
+      "maps": {
+        "albedo": "Concrete034_1K-JPG_Color.jpg",
+        "normal": "Concrete034_1K-JPG_NormalGL.jpg",
+        "roughness": "Concrete034_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 1.25,
+      "synced_at": "2026-11-26T21:24:26.793149+00:00"
+    },
+    {
+      "id": "acg_concrete048",
+      "provider": "ambientCG",
+      "upstream_id": "Concrete048",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Concrete048",
+      "target": "vendor/pbr_materials/acg_concrete048",
+      "maps": {
+        "ao": "Concrete048_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "Concrete048_1K-JPG_Color.jpg",
+        "metallic": "Concrete048_1K-JPG_Metalness.jpg",
+        "normal": "Concrete048_1K-JPG_NormalGL.jpg",
+        "roughness": "Concrete048_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 3.85,
+      "synced_at": "2026-11-26T21:24:25.821202+00:00"
+    },
+    {
+      "id": "acg_concrete049",
+      "provider": "ambientCG",
+      "upstream_id": "Concrete049",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Concrete049",
+      "target": "vendor/pbr_materials/acg_concrete049",
+      "maps": {
+        "ao": "Concrete049_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "Concrete049_1K-JPG_Color.jpg",
+        "normal": "Concrete049_1K-JPG_NormalGL.jpg",
+        "roughness": "Concrete049_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 5.44,
+      "synced_at": "2026-11-26T21:24:24.679662+00:00"
+    },
+    {
+      "id": "acg_ground107",
+      "provider": "ambientCG",
+      "upstream_id": "Ground107",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Ground107",
+      "target": "vendor/pbr_materials/acg_ground107",
+      "maps": {
+        "ao": "Ground107_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "Ground107_1K-JPG_Color.jpg",
+        "normal": "Ground107_1K-JPG_NormalGL.jpg",
+        "roughness": "Ground107_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 5.03,
+      "synced_at": "2026-11-26T21:24:35.042679+00:00"
+    },
+    {
+      "id": "acg_ground111",
+      "provider": "ambientCG",
+      "upstream_id": "Ground111",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Ground111",
+      "target": "vendor/pbr_materials/acg_ground111",
+      "maps": {
+        "ao": "Ground111_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "Ground111_1K-JPG_Color.jpg",
+        "normal": "Ground111_1K-JPG_NormalGL.jpg",
+        "roughness": "Ground111_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 5.19,
+      "synced_at": "2026-11-26T21:24:33.333053+00:00"
+    },
+    {
+      "id": "acg_metal063",
+      "provider": "ambientCG",
+      "upstream_id": "Metal063",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Metal063",
+      "target": "vendor/pbr_materials/acg_metal063",
+      "maps": {
+        "albedo": "Metal063_1K-JPG_Color.jpg",
+        "metallic": "Metal063_1K-JPG_Metalness.jpg",
+        "normal": "Metal063_1K-JPG_NormalGL.jpg",
+        "roughness": "Metal063_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 2.93,
+      "synced_at": "2026-11-26T21:24:38.580015+00:00"
+    },
+    {
+      "id": "acg_metal064",
+      "provider": "ambientCG",
+      "upstream_id": "Metal064",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Metal064",
+      "target": "vendor/pbr_materials/acg_metal064",
+      "maps": {
+        "albedo": "Metal064_1K-JPG_Color.jpg",
+        "metallic": "Metal064_1K-JPG_Metalness.jpg",
+        "normal": "Metal064_1K-JPG_NormalGL.jpg",
+        "roughness": "Metal064_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 3.52,
+      "synced_at": "2026-11-26T21:24:37.341367+00:00"
+    },
+    {
+      "id": "acg_paper005",
+      "provider": "ambientCG",
+      "upstream_id": "Paper005",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Paper005",
+      "target": "vendor/pbr_materials/acg_paper005",
+      "maps": {
+        "albedo": "Paper005_1K-JPG_Color.jpg",
+        "normal": "Paper005_1K-JPG_NormalGL.jpg",
+        "roughness": "Paper005_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 2.25,
+      "synced_at": "2026-11-26T21:24:45.101813+00:00"
+    },
+    {
+      "id": "acg_paper006",
+      "provider": "ambientCG",
+      "upstream_id": "Paper006",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Paper006",
+      "target": "vendor/pbr_materials/acg_paper006",
+      "maps": {
+        "albedo": "Paper006_1K-JPG_Color.jpg",
+        "normal": "Paper006_1K-JPG_NormalGL.jpg",
+        "roughness": "Paper006_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 2.18,
+      "synced_at": "2026-11-26T21:24:43.764219+00:00"
+    },
+    {
+      "id": "acg_pavingstones150",
+      "provider": "ambientCG",
+      "upstream_id": "PavingStones150",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=PavingStones150",
+      "target": "vendor/pbr_materials/acg_pavingstones150",
+      "maps": {
+        "ao": "PavingStones150_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "PavingStones150_1K-JPG_Color.jpg",
+        "normal": "PavingStones150_1K-JPG_NormalGL.jpg",
+        "roughness": "PavingStones150_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 2.36,
+      "synced_at": "2026-11-26T21:24:30.892939+00:00"
+    },
+    {
+      "id": "acg_pavingstones151",
+      "provider": "ambientCG",
+      "upstream_id": "PavingStones151",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=PavingStones151",
+      "target": "vendor/pbr_materials/acg_pavingstones151",
+      "maps": {
+        "ao": "PavingStones151_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "PavingStones151_1K-JPG_Color.jpg",
+        "normal": "PavingStones151_1K-JPG_NormalGL.jpg",
+        "roughness": "PavingStones151_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 4.45,
+      "synced_at": "2026-11-26T21:24:29.354249+00:00"
+    },
+    {
+      "id": "acg_tiles143",
+      "provider": "ambientCG",
+      "upstream_id": "Tiles143",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=Tiles143",
+      "target": "vendor/pbr_materials/acg_tiles143",
+      "maps": {
+        "albedo": "Tiles143_1K-JPG_Color.jpg",
+        "normal": "Tiles143_1K-JPG_NormalGL.jpg",
+        "roughness": "Tiles143_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 2.25,
+      "synced_at": "2026-11-26T21:24:47.140874+00:00"
+    },
+    {
+      "id": "acg_woodfloor043",
+      "provider": "ambientCG",
+      "upstream_id": "WoodFloor043",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=WoodFloor043",
+      "target": "vendor/pbr_materials/acg_woodfloor043",
+      "maps": {
+        "ao": "WoodFloor043_1K-JPG_AmbientOcclusion.jpg",
+        "albedo": "WoodFloor043_1K-JPG_Color.jpg",
+        "metallic": "WoodFloor043_1K-JPG_Metalness.jpg",
+        "normal": "WoodFloor043_1K-JPG_NormalGL.jpg",
+        "roughness": "WoodFloor043_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 1.34,
+      "synced_at": "2026-11-26T21:24:41.712601+00:00"
+    },
+    {
+      "id": "acg_woodfloor064",
+      "provider": "ambientCG",
+      "upstream_id": "WoodFloor064",
+      "license": "CC0-1.0",
+      "source_url": "https://ambientcg.com/view?id=WoodFloor064",
+      "target": "vendor/pbr_materials/acg_woodfloor064",
+      "maps": {
+        "albedo": "WoodFloor064_1K-JPG_Color.jpg",
+        "normal": "WoodFloor064_1K-JPG_NormalGL.jpg",
+        "roughness": "WoodFloor064_1K-JPG_Roughness.jpg"
+      },
+      "size_mb": 1.66,
+      "synced_at": "2026-11-26T21:24:40.674242+00:00"
+    },
+    {
+      "id": "ph_aerial_ground_rock",
+      "provider": "Poly Haven",
+      "upstream_id": "aerial_ground_rock",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/aerial_ground_rock",
+      "target": "vendor/pbr_materials/ph_aerial_ground_rock",
+      "maps": {
+        "albedo": "ph_aerial_ground_rock_albedo.jpg",
+        "normal": "ph_aerial_ground_rock_normal.jpg",
+        "roughness": "ph_aerial_ground_rock_roughness.jpg",
+        "ao": "ph_aerial_ground_rock_ao.jpg"
+      },
+      "size_mb": 1.87,
+      "synced_at": "2026-11-26T21:24:49.706116+00:00"
+    },
+    {
+      "id": "ph_aerial_wood_snips",
+      "provider": "Poly Haven",
+      "upstream_id": "aerial_wood_snips",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/aerial_wood_snips",
+      "target": "vendor/pbr_materials/ph_aerial_wood_snips",
+      "maps": {
+        "albedo": "ph_aerial_wood_snips_albedo.jpg",
+        "normal": "ph_aerial_wood_snips_normal.jpg",
+        "roughness": "ph_aerial_wood_snips_roughness.jpg",
+        "ao": "ph_aerial_wood_snips_ao.jpg"
+      },
+      "size_mb": 2.84,
+      "synced_at": "2026-11-26T21:24:57.384263+00:00"
+    },
+    {
+      "id": "ph_american_walnut_veneer",
+      "provider": "Poly Haven",
+      "upstream_id": "american_walnut_veneer",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/american_walnut_veneer",
+      "target": "vendor/pbr_materials/ph_american_walnut_veneer",
+      "maps": {
+        "albedo": "ph_american_walnut_veneer_albedo.jpg",
+        "normal": "ph_american_walnut_veneer_normal.jpg",
+        "roughness": "ph_american_walnut_veneer_roughness.jpg",
+        "ao": "ph_american_walnut_veneer_ao.jpg"
+      },
+      "size_mb": 2.23,
+      "synced_at": "2026-11-26T21:24:58.544640+00:00"
+    },
+    {
+      "id": "ph_anti_slip_concrete",
+      "provider": "Poly Haven",
+      "upstream_id": "anti_slip_concrete",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/anti_slip_concrete",
+      "target": "vendor/pbr_materials/ph_anti_slip_concrete",
+      "maps": {
+        "albedo": "ph_anti_slip_concrete_albedo.jpg",
+        "normal": "ph_anti_slip_concrete_normal.jpg",
+        "roughness": "ph_anti_slip_concrete_roughness.jpg",
+        "ao": "ph_anti_slip_concrete_ao.jpg"
+      },
+      "size_mb": 2.82,
+      "synced_at": "2026-11-26T21:24:52.289253+00:00"
+    },
+    {
+      "id": "ph_asphalt_floor",
+      "provider": "Poly Haven",
+      "upstream_id": "asphalt_floor",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/asphalt_floor",
+      "target": "vendor/pbr_materials/ph_asphalt_floor",
+      "maps": {
+        "albedo": "ph_asphalt_floor_albedo.jpg",
+        "normal": "ph_asphalt_floor_normal.jpg",
+        "roughness": "ph_asphalt_floor_roughness.jpg",
+        "ao": "ph_asphalt_floor_ao.jpg"
+      },
+      "size_mb": 3.68,
+      "synced_at": "2026-11-26T21:24:53.685100+00:00"
+    },
+    {
+      "id": "ph_beige_wall_001",
+      "provider": "Poly Haven",
+      "upstream_id": "beige_wall_001",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/beige_wall_001",
+      "target": "vendor/pbr_materials/ph_beige_wall_001",
+      "maps": {
+        "albedo": "ph_beige_wall_001_albedo.jpg",
+        "normal": "ph_beige_wall_001_normal.jpg",
+        "roughness": "ph_beige_wall_001_roughness.jpg",
+        "ao": "ph_beige_wall_001_ao.jpg"
+      },
+      "size_mb": 0.44,
+      "synced_at": "2026-11-26T21:24:59.302986+00:00"
+    },
+    {
+      "id": "ph_beige_wall_002",
+      "provider": "Poly Haven",
+      "upstream_id": "beige_wall_002",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/beige_wall_002",
+      "target": "vendor/pbr_materials/ph_beige_wall_002",
+      "maps": {
+        "albedo": "ph_beige_wall_002_albedo.jpg",
+        "normal": "ph_beige_wall_002_normal.jpg",
+        "roughness": "ph_beige_wall_002_roughness.jpg",
+        "ao": "ph_beige_wall_002_ao.jpg"
+      },
+      "size_mb": 0.18,
+      "synced_at": "2026-11-26T21:25:00.033625+00:00"
+    },
+    {
+      "id": "ph_bicolour_gravel",
+      "provider": "Poly Haven",
+      "upstream_id": "bicolour_gravel",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/bicolour_gravel",
+      "target": "vendor/pbr_materials/ph_bicolour_gravel",
+      "maps": {
+        "albedo": "ph_bicolour_gravel_albedo.jpg",
+        "normal": "ph_bicolour_gravel_normal.jpg",
+        "roughness": "ph_bicolour_gravel_roughness.jpg",
+        "ao": "ph_bicolour_gravel_ao.jpg"
+      },
+      "size_mb": 4.44,
+      "synced_at": "2026-11-26T21:24:51.025805+00:00"
+    },
+    {
+      "id": "ph_corrugated_iron",
+      "provider": "Poly Haven",
+      "upstream_id": "corrugated_iron",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/corrugated_iron",
+      "target": "vendor/pbr_materials/ph_corrugated_iron",
+      "maps": {
+        "albedo": "ph_corrugated_iron_albedo.jpg",
+        "normal": "ph_corrugated_iron_normal.jpg",
+        "roughness": "ph_corrugated_iron_roughness.jpg",
+        "ao": "ph_corrugated_iron_ao.jpg",
+        "metallic": "ph_corrugated_iron_metallic.jpg"
+      },
+      "size_mb": 2.3,
+      "synced_at": "2026-11-26T21:24:54.998982+00:00"
+    },
+    {
+      "id": "ph_distressed_painted_planks",
+      "provider": "Poly Haven",
+      "upstream_id": "distressed_painted_planks",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/distressed_painted_planks",
+      "target": "vendor/pbr_materials/ph_distressed_painted_planks",
+      "maps": {
+        "albedo": "ph_distressed_painted_planks_albedo.jpg",
+        "normal": "ph_distressed_painted_planks_normal.jpg",
+        "roughness": "ph_distressed_painted_planks_roughness.jpg",
+        "ao": "ph_distressed_painted_planks_ao.jpg"
+      },
+      "size_mb": 1.27,
+      "synced_at": "2026-11-26T21:24:56.027409+00:00"
+    }
+  ]
+}

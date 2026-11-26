@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3]
+
+[ext_resource type="Texture2D" path="res://vendor/pbr_materials/ph_bicolour_gravel/ph_bicolour_gravel_albedo.jpg" id="1_tex"]
+[ext_resource type="Texture2D" path="res://vendor/pbr_materials/ph_bicolour_gravel/ph_bicolour_gravel_normal.jpg" id="2_tex"]
+[ext_resource type="Texture2D" path="res://vendor/pbr_materials/ph_bicolour_gravel/ph_bicolour_gravel_roughness.jpg" id="3_tex"]
+[ext_resource type="Texture2D" path="res://vendor/pbr_materials/ph_bicolour_gravel/ph_bicolour_gravel_ao.jpg" id="4_tex"]
+
+[resource]
+albedo_texture = ExtResource("1_tex")
+normal_enabled = true
+normal_texture = ExtResource("2_tex")
+roughness_texture = ExtResource("3_tex")
+ao_enabled = true
+ao_texture = ExtResource("4_tex")
+texture_filter = 2
