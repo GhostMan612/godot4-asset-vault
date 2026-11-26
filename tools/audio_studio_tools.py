@@ -60,6 +60,42 @@ def _write_wav(path: Path, data: np.ndarray, rate: int) -> None:
         wf.writeframes(pcm.tobytes())
 
 
+def _biquad(x: np.ndarray, b0: float, b1: float, b2: float, a1: float, a2: float) -> np.ndarray:
+    y = np.zeros_like(x)
+    z1 = z2 = 0.0
+    for i in range(len(x)):
+        xi = float(x[i])
+        yi = b0 * xi + z1
+        z1 = b1 * xi - a1 * yi + z2
+        z2 = b2 * xi - a2 * yi
+        y[i] = yi
+    return y
+
+
+def _k_weight(x: np.ndarray, rate: int) -> np.ndarray:
+    """BS.1770-style K-weighting: +4 dB shelf at 1.5 kHz and 38 Hz high-pass."""
+    w0 = 2.0 * math.pi * 1500.0 / rate
+    alpha = math.sin(w0) / (2.0 * math.sqrt(0.5))
+    A = 10.0 ** (4.0 / 40.0)
+    b0 = A * ((A + 1) + (A - 1) * math.cos(w0) + 2.0 * math.sqrt(A) * alpha)
+    b1 = -2.0 * A * ((A - 1) + (A + 1) * math.cos(w0))
+    b2 = A * ((A + 1) + (A - 1) * math.cos(w0) - 2.0 * math.sqrt(A) * alpha)
+    a0 = (A + 1) - (A - 1) * math.cos(w0) + 2.0 * math.sqrt(A) * alpha
+    a1 = 2.0 * ((A - 1) - (A + 1) * math.cos(w0))
+    a2 = (A + 1) - (A - 1) * math.cos(w0) - 2.0 * math.sqrt(A) * alpha
+    y = _biquad(x, b0 / a0, b1 / a0, b2 / a0, a1 / a0, a2 / a0)
+
+    w0 = 2.0 * math.pi * 38.0 / rate
+    alpha = math.sin(w0) / (2.0 * math.sqrt(0.5))
+    b0 = (1.0 + math.cos(w0)) / 2.0
+    b1 = -(1.0 + math.cos(w0))
+    b2 = b0
+    a0 = 1.0 + alpha
+    a1 = -2.0 * math.cos(w0)
+    a2 = 1.0 - alpha
+    return _biquad(y, b0 / a0, b1 / a0, b2 / a0, a1 / a0, a2 / a0)
+
+
 def _display_path(path: Path) -> str:
     try:
         return str(path.relative_to(ROOT))
@@ -253,11 +289,20 @@ def master_audio(arguments: dict) -> dict:
     target_peak_db = float(arguments.get("target_peak_db", -1.5))
     soft_clip = bool(arguments.get("soft_clip", True))
     fade_ms = int(arguments.get("fade_ms", 3))
+    target_lufs = arguments.get("target_lufs_db")
 
     audio, rate, channels = _read_wav(source)
+    lufs_before = None
+    if target_lufs is not None:
+        weighted = _k_weight(audio if audio.ndim == 1 else audio.mean(axis=1), rate)
+        mean_sq = float(np.mean(np.square(weighted)))
+        lufs_before = -0.691 + 10.0 * math.log10(max(mean_sq, 1e-12))
+        audio = audio * _db_to_lin(float(target_lufs) - lufs_before)
+
     peak = float(np.max(np.abs(audio))) if audio.size else 0.0
-    if peak > 0.0:
-        audio = audio * (_db_to_lin(target_peak_db) / peak)
+    ceiling = _db_to_lin(target_peak_db)
+    if peak > ceiling:
+        audio = audio * (ceiling / peak)
     if soft_clip:
         audio = np.tanh(audio)
     if fade_ms > 0:
@@ -272,12 +317,19 @@ def master_audio(arguments: dict) -> dict:
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     _write_wav(out_path, audio, rate)
+    lufs_after = None
+    if target_lufs is not None:
+        weighted = _k_weight(audio if audio.ndim == 1 else audio.mean(axis=1), rate)
+        lufs_after = -0.691 + 10.0 * math.log10(max(float(np.mean(np.square(weighted))), 1e-12))
     final = float(np.max(np.abs(audio)))
     return {
         "status": "ok",
         "out_path": _display_path(out_path),
         "peak_db": round(_lin_to_db(final), 2),
         "rms_db": round(_lin_to_db(float(np.sqrt(np.mean(np.square(audio))))), 2),
+        "lufs_before": round(lufs_before, 2) if lufs_before is not None else None,
+        "target_lufs_db": float(target_lufs) if target_lufs is not None else None,
+        "lufs_after": round(lufs_after, 2) if lufs_after is not None else None,
         "sample_rate": rate,
     }
 
@@ -373,6 +425,7 @@ TOOLS: dict[str, dict] = {
                 "source_path": {"type": "string"},
                 "out_path": {"type": "string"},
                 "target_peak_db": {"type": "number"},
+                "target_lufs_db": {"type": "number"},
                 "soft_clip": {"type": "boolean"},
                 "fade_ms": {"type": "integer"},
             },

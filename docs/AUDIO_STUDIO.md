@@ -10,7 +10,7 @@ tools connect to local backends when available.
 |---|---|
 | `list_backends` | Report ffmpeg / sox / piper / Ollama availability |
 | `synthesize_sfx` | Seeded procedural WAVs: `noise_burst`, `sweep`, `impact`, `hum` |
-| `master_audio` | Peak normalization, soft limiting, fades |
+| `master_audio` | Optional K-weighted LUFS targeting, peak ceiling, soft limiting, fades |
 | `pack_cues` | Run `tools/pack_audio_assets.py` on a cue sheet |
 
 ## AI-assisted tools

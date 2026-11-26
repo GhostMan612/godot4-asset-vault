@@ -30,6 +30,7 @@ var _tps_camera: Camera3D = null
 var _tps_sprites: Array[Sprite3D] = []
 var _auto_orbit: bool = true
 var _orbit_yaw: float = 0.0
+var _audio_player: AudioStreamPlayer = null
 
 func _ready() -> void:
 	var bg := ColorRect.new()
@@ -48,6 +49,7 @@ func _ready() -> void:
 	tabs.add_child(_build_sovereign_nodes_tab())
 	tabs.add_child(_build_tacplanshooter_tab())
 	tabs.add_child(_build_pathfinder_god_tab())
+	tabs.add_child(_build_audio_tab())
 
 func _process(delta: float) -> void:
 	if _tps_camera_pivot == null or _tps_camera == null:
@@ -208,6 +210,54 @@ func _update_8dir_frames() -> void:
 	var sector := posmod(int(round(rad_to_deg(rel_angle) / 45.0)), 8)
 	for spr in _tps_sprites:
 		spr.frame = sector
+
+func _build_audio_tab() -> Control:
+	var root := VBoxContainer.new()
+	root.name = "Audio Studio"
+
+	var title := Label.new()
+	title.text = "Audio cues - tacplanshooter/audio/packed"
+	root.add_child(title)
+
+	var script_path := "res://tacplanshooter/audio/packed/audio_cue_registry.gd"
+	if not ResourceLoader.exists(script_path):
+		var missing := Label.new()
+		missing.text = "Run tools/pack_audio_assets.py"
+		root.add_child(missing)
+		return root
+
+	var reg := load(script_path) as GDScript
+	_audio_player = AudioStreamPlayer.new()
+	root.add_child(_audio_player)
+
+	var scroll := ScrollContainer.new()
+	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	root.add_child(scroll)
+	var list := VBoxContainer.new()
+	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	scroll.add_child(list)
+
+	for key in reg.CUES.keys():
+		var cue: Dictionary = reg.CUES[key]
+		var btn := Button.new()
+		btn.text = "%s  [%s]  %.2fs" % [String(key), String(cue.get("bus", "SFX")), float(cue.get("duration", 0.0))]
+		btn.pressed.connect(func() -> void: _play_cue(reg, StringName(key), cue))
+		list.add_child(btn)
+	return root
+
+func _play_cue(reg: GDScript, id: StringName, cue: Dictionary) -> void:
+	if _audio_player == null:
+		return
+	var stream: AudioStream = reg.stream_for(id)
+	if stream == null:
+		return
+	_audio_player.stream = stream
+	var bus := String(cue.get("bus", "SFX"))
+	if AudioServer.get_bus_index(bus) >= 0:
+		_audio_player.bus = bus
+	else:
+		_audio_player.bus = "Master"
+	_audio_player.play()
 
 func _build_pathfinder_god_tab() -> Control:
 	var scroll := ScrollContainer.new()
