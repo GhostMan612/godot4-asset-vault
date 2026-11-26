@@ -12,6 +12,7 @@ is unavailable.
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import math
 import os
@@ -370,6 +371,41 @@ def pack_cues(arguments: dict) -> dict:
     }
 
 
+def generate_sheet_image(arguments: dict) -> dict:
+    backend_env = os.environ.get("IMAGE_BACKEND", "").strip().lower()
+    if backend_env not in ("comfyui", "diffusers"):
+        return {
+            "status": "backend_unavailable",
+            "reason": "IMAGE_BACKEND is not set to comfyui or diffusers",
+            "hint": "Set IMAGE_BACKEND=comfyui (COMFYUI_URL/COMFYUI_CHECKPOINT) "
+            "or IMAGE_BACKEND=diffusers (LOCAL_DIFFUSERS_MODEL)",
+        }
+    module_path = ROOT / "tools" / "local_image_backend.py"
+    if not module_path.exists():
+        return {"status": "error", "reason": f"Missing backend module: {module_path}"}
+    spec = importlib.util.spec_from_file_location("local_image_backend", module_path)
+    backend_module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(backend_module)
+
+    output_path = Path(str(arguments["output_path"]))
+    if not output_path.is_absolute():
+        output_path = ROOT / output_path
+    backend = str(arguments.get("backend", backend_env))
+    if backend == "auto":
+        backend = backend_env
+    return backend_module.generate_sheet_image(
+        prompt=str(arguments["prompt"]),
+        output_path=output_path,
+        backend=backend,
+        width=int(arguments.get("width", 1344)),
+        height=int(arguments.get("height", 768)),
+        steps=int(arguments.get("steps", 24)),
+        cfg=float(arguments.get("cfg", 6.5)),
+        seed=arguments.get("seed"),
+        chroma_key=bool(arguments.get("chroma_key", True)),
+    )
+
+
 TOOLS: dict[str, dict] = {
     "list_backends": {
         "description": "Report which audio backends and executables are available.",
@@ -455,6 +491,25 @@ TOOLS: dict[str, dict] = {
             },
         },
         "handler": pack_cues,
+    },
+    "generate_sheet_image": {
+        "description": "Generate an image sheet via local ComfyUI/Diffusers when IMAGE_BACKEND is configured.",
+        "input_schema": {
+            "type": "object",
+            "required": ["prompt", "output_path"],
+            "properties": {
+                "prompt": {"type": "string"},
+                "output_path": {"type": "string"},
+                "backend": {"type": "string", "enum": ["auto", "comfyui", "diffusers"]},
+                "width": {"type": "integer"},
+                "height": {"type": "integer"},
+                "steps": {"type": "integer"},
+                "cfg": {"type": "number"},
+                "seed": {"type": "integer"},
+                "chroma_key": {"type": "boolean"},
+            },
+        },
+        "handler": generate_sheet_image,
     },
 }
 
