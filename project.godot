@@ -1,0 +1,21 @@
+; Engine configuration file.
+;
+config_version=5
+
+[application]
+config/name="godot4-asset-vault"
+config/features=PackedStringArray("4.0")
+run/main_scene="res://showcase/vault_gallery.tscn"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+2d/antialiasing=false
+textures/canvas_textures/default_texture_filter=0
+
+[layer_names]
+2d_physics/layer_1="1"
+
+[editor_plugins]
+enabled=PackedStringArray("res://addons/godot4_asset_vault/plugin.cfg")
+
