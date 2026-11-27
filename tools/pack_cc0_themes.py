@@ -32,10 +32,16 @@ def normal_from_albedo(img: Image.Image) -> Image.Image:
     return out
 
 
-def available_sources() -> list:
+def available_sources(theme_id: str) -> list:
     if not SOURCES.exists():
         return []
-    return [p for p in SOURCES.rglob("*.png") if p.stat().st_size > 1024]
+    all_png = [p for p in SOURCES.rglob("*.png") if p.stat().st_size > 1024]
+    if theme_id in ("tactical_compound", "industrial_warehouse", "moonbase_lab"):
+        picked = [p for p in all_png if "superpowers" in p.as_posix()]
+    else:
+        picked = [p for p in all_png if "dungeon" in p.as_posix()]
+    picked.sort(key=lambda p: p.as_posix())
+    return picked[:16]
 
 
 def pack(theme_id: str, sources: list) -> bool:
@@ -53,15 +59,16 @@ def pack(theme_id: str, sources: list) -> bool:
     meta_path = d / "theme_meta.json"
     meta = json.loads(meta_path.read_text(encoding="utf-8"))
     meta["provenance"] = "CC0_CURATED"
-    meta["credit"] = "; ".join(p.name for p in sources[:4])
+    meta["credit"] = "sparklinlabs/superpowers-asset-packs (CC0 1.0)" if "superpowers" in sources[0].as_posix() else "seloc0des/godot-dungeon-starter — 0x72 DungeonTileset II (CC0)"
+    meta["upstream_urls"] = ["https://github.com/sparklinlabs/superpowers-asset-packs", "https://github.com/seloc0des/godot-dungeon-starter"]
     meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
     return True
 
 
 if __name__ == "__main__":
-    sources = available_sources()
-    if not sources:
-        print("NO VERIFIED CC0 SOURCES in vendor/cc0_topdown — keeping ORIGINAL_PROCEDURAL atlases")
-    else:
-        for theme_id in THEME_IDS:
+    for theme_id in THEME_IDS:
+        sources = available_sources(theme_id)
+        if not sources:
+            print(theme_id, "NO VERIFIED CC0 SOURCES — keeping ORIGINAL_PROCEDURAL")
+        else:
             print(theme_id, "CC0_SWAPPED" if pack(theme_id, sources) else "SKIPPED")

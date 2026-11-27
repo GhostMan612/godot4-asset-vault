@@ -14,5 +14,10 @@
     0.2,
     0.14
   ],
-  "provenance": "ORIGINAL_PROCEDURAL"
+  "provenance": "CC0_CURATED",
+  "credit": "sparklinlabs/superpowers-asset-packs (CC0 1.0)",
+  "upstream_urls": [
+    "https://github.com/sparklinlabs/superpowers-asset-packs",
+    "https://github.com/seloc0des/godot-dungeon-starter"
+  ]
 }

@@ -2,25 +2,25 @@
   "assets": [
     {
       "path": "themes/ancestral_crypt/floor_atlas.png",
-      "bytes": 433,
+      "bytes": 3881,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "a629e3e6817bb90a88a8266c485116c54a2a8612f653c8952b88ab8c14a010e9",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "cb602d1d5ea52593fef2bb78e0446e9bf1dbe02ff25e55f54eb80382584299d0",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/ancestral_crypt/floor_atlas_n.png",
-      "bytes": 611,
+      "bytes": 6377,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "5904337bd9333475352f50a2dc7dd82b818ce871fb774e702eea2887c08b8a47",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "97cd346e198ba78e89f775e79e873a062964f984113783a51fa3cefded7109f8",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/ancestral_crypt/props_atlas.png",
@@ -31,7 +31,7 @@
       ],
       "rgba": true,
       "sha256": "feee53bb6f12bf46d0a96277b6182abdc4d9e51578fded0d72013f4a7d13e7d7",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/ancestral_crypt/wall_atlas.png",
@@ -42,7 +42,7 @@
       ],
       "rgba": true,
       "sha256": "c16790aecb9bf9ce351df3534646cfbc27b53fbbf0bc777f36771dc3f58c6ef4",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/ancestral_crypt/wall_atlas_n.png",
@@ -53,29 +53,29 @@
       ],
       "rgba": true,
       "sha256": "fc7ae2da7c1eb72ebfeece58745a9d9d7c7d9b19e470844fa4e0fa7080d54483",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/bank_vault/floor_atlas.png",
-      "bytes": 431,
+      "bytes": 3881,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "1e2bff990873affb9d74f7c765661f3aa5010cac5ca45294b0f07a361b1badf7",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "cb602d1d5ea52593fef2bb78e0446e9bf1dbe02ff25e55f54eb80382584299d0",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/bank_vault/floor_atlas_n.png",
-      "bytes": 545,
+      "bytes": 6377,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "75efdf4a0f1f81eb0b3480cd34925da8892593702b020279255197410e4e2804",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "97cd346e198ba78e89f775e79e873a062964f984113783a51fa3cefded7109f8",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/bank_vault/props_atlas.png",
@@ -86,7 +86,7 @@
       ],
       "rgba": true,
       "sha256": "7e2d24824cb93a70499fcbd1e9bc72ae7e46e3eb4f70a23b8f722b671eaf6632",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/bank_vault/wall_atlas.png",
@@ -97,7 +97,7 @@
       ],
       "rgba": true,
       "sha256": "63c4fbe3c7734e1cfb32b157825cc9e8555a8dee843c5c5c18e8a99bc60cf7e0",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/bank_vault/wall_atlas_n.png",
@@ -108,29 +108,29 @@
       ],
       "rgba": true,
       "sha256": "cce44e154c4b2f99bbe00d98493d7a99fb03f105535ddbfb0af9aca0fe6a2674",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/industrial_warehouse/floor_atlas.png",
-      "bytes": 444,
+      "bytes": 1897,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "d9b92396cfef64a6e0b794203b20c34990d85cc4291a999c2b40dc29cfe1fe26",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "ca5c73dbd48acf4309b7e38f100646c7ab9e8fe14503a2e143fe51d619b568c0",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/industrial_warehouse/floor_atlas_n.png",
-      "bytes": 542,
+      "bytes": 2849,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "6804c4486783f85913c274a11bc1e9ef0a145487c740692ca58a8aaa76258db8",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "208e56ca7c244b647f27dca40e9c9161a3d86a21ea3788c308f5b96f7a12f1ba",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/industrial_warehouse/props_atlas.png",
@@ -141,7 +141,7 @@
       ],
       "rgba": true,
       "sha256": "05a2caf5a81a0df9523435ef4bb7a0679367c1c5136eb54101131fd1c4712204",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/industrial_warehouse/wall_atlas.png",
@@ -152,7 +152,7 @@
       ],
       "rgba": true,
       "sha256": "256f80850ad30b11a191df12544afed787207677b4f661f064cae93a8dbb57af",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/industrial_warehouse/wall_atlas_n.png",
@@ -163,29 +163,29 @@
       ],
       "rgba": true,
       "sha256": "76d7232bbdea508377204f997d0427f6662df580e0648ac910b88fd6db84f76c",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/moonbase_lab/floor_atlas.png",
-      "bytes": 446,
+      "bytes": 1897,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "6ab46370f63c33628d269c71929f4ecb1282931111a0d29d075c0c491a6cc6d0",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "ca5c73dbd48acf4309b7e38f100646c7ab9e8fe14503a2e143fe51d619b568c0",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/moonbase_lab/floor_atlas_n.png",
-      "bytes": 543,
+      "bytes": 2849,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "e810fdd11a1cfb486620c2c4446674e0b803a59321a6d4a3398cbb03e7e2e5d0",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "208e56ca7c244b647f27dca40e9c9161a3d86a21ea3788c308f5b96f7a12f1ba",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/moonbase_lab/props_atlas.png",
@@ -196,7 +196,7 @@
       ],
       "rgba": true,
       "sha256": "fd1fb36832e29381be8ffd58b86e25ab3d2e0dfe43766455273ee92d16f73d26",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/moonbase_lab/wall_atlas.png",
@@ -207,7 +207,7 @@
       ],
       "rgba": true,
       "sha256": "a12d874efdc53347ca4e7c19b418472bfdd71fbd9bd0dda6523187073d6aefff",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/moonbase_lab/wall_atlas_n.png",
@@ -218,29 +218,29 @@
       ],
       "rgba": true,
       "sha256": "0256083caca6f6300ad83f85cb7b2b4656e628edc6bec30e6c6d21f006479953",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/tactical_compound/floor_atlas.png",
-      "bytes": 431,
+      "bytes": 1897,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "3619f306cfeaa880f6091ab58dab6d7249d611ad482eb6e7e574eebfc2e9baea",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "ca5c73dbd48acf4309b7e38f100646c7ab9e8fe14503a2e143fe51d619b568c0",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/tactical_compound/floor_atlas_n.png",
-      "bytes": 623,
+      "bytes": 2849,
       "dimensions": [
         256,
         64
       ],
       "rgba": true,
-      "sha256": "89d748be2db3f34fafa75cc7a6ca8512b88927604202a8753b9d6c3750854249",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "sha256": "208e56ca7c244b647f27dca40e9c9161a3d86a21ea3788c308f5b96f7a12f1ba",
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/tactical_compound/props_atlas.png",
@@ -251,7 +251,7 @@
       ],
       "rgba": true,
       "sha256": "c8ea39f7fea21c9fea02bf26f4d46f89de3033f449ad1f790a2478e752e76e2d",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/tactical_compound/wall_atlas.png",
@@ -262,7 +262,7 @@
       ],
       "rgba": true,
       "sha256": "fcbb91d77298457659c975a2f3b0232afe2be3ef9217309cca03f6bee869d1af",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
     },
     {
       "path": "themes/tactical_compound/wall_atlas_n.png",
@@ -273,7 +273,3373 @@
       ],
       "rgba": true,
       "sha256": "0a4bc408545724bf5003b74657d5a60a27be854d2b19d7ed992b635a9a27cf85",
-      "provenance": "ORIGINAL_PROCEDURAL"
+      "provenance": "CC0_CURATED"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/.gitattributes",
+      "bytes": 200,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "7763d242afbc805818735e165e480eed16d2750a09364454e3fb62ef3d87cfd7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/.gitignore",
+      "bytes": 166,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "e0f5b3d2195b7c7bd9fa41b816ef2cfd4ea3a69a8fc198086fe5e2dc07d5aa2a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/icon.png",
+      "bytes": 4377,
+      "dimensions": [
+        256,
+        256
+      ],
+      "rgba": false,
+      "sha256": "c3353292d1e47e1215aa955407543d8c293fa92e75a17382a5edbd5091f5e903",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/LICENSE",
+      "bytes": 1070,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "0d85d2e1227be9197710e2f83c1d74606dc8d71af9ff42944e8b78ffdfef4519",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/project.godot",
+      "bytes": 2701,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "2646e712a9af3aa5bb2cd9d429ce6e91acffd06b2cd23e26abc07d2534af883e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/font-20x20.png",
+      "bytes": 6619,
+      "dimensions": [
+        300,
+        160
+      ],
+      "rgba": true,
+      "sha256": "e17764c9e15dda54cb41791ce32674813b7f5df7b6129a0e80d03b0513ec96d0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/logo.png",
+      "bytes": 6918,
+      "dimensions": [
+        509,
+        84
+      ],
+      "rgba": true,
+      "sha256": "7042334de8d473b94dd97cd5c6294d8ee59f921b6187655871030f5192a219d0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/preview.png",
+      "bytes": 69216,
+      "dimensions": [
+        732,
+        509
+      ],
+      "rgba": false,
+      "sha256": "9357f75052bef9f3cfbcfad33c48d9755afaafe858cb5d4c921fae19cd0eb0ce",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/title-font.png",
+      "bytes": 6350,
+      "dimensions": [
+        421,
+        132
+      ],
+      "rgba": true,
+      "sha256": "6440f6a07a93a148cbd9910ec46512b8f76bf32cae84dd60582489971affd778",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/font-1.png",
+      "bytes": 5843,
+      "dimensions": [
+        391,
+        75
+      ],
+      "rgba": true,
+      "sha256": "1792ae4e0fb23cb26a34d627c76e06282751b7e6ec10514581ee587c1522f93e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/font-2.png",
+      "bytes": 6958,
+      "dimensions": [
+        609,
+        112
+      ],
+      "rgba": true,
+      "sha256": "d93a246d5567064a491dc294b6a9618402b8c860932762482edf03df031f33da",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/preview.png",
+      "bytes": 71816,
+      "dimensions": [
+        732,
+        509
+      ],
+      "rgba": false,
+      "sha256": "8a36af7f56a2d8493b0e6acaf3ac37c26eb232d4c05e721bfe8fb89ab0d01fdf",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/door.gif",
+      "bytes": 534,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "e9685444e03a5c1430efd051f99159b81b75730bdd713c1fb69327c9db3efa2f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/tileset.png",
+      "bytes": 12947,
+      "dimensions": [
+        288,
+        288
+      ],
+      "rgba": true,
+      "sha256": "281430fd30733e500bca366a46bcaccc26ec2dda0fe086d35d27d573b6bf48f2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/example.png",
+      "bytes": 3108,
+      "dimensions": [
+        22,
+        25
+      ],
+      "rgba": true,
+      "sha256": "7a3e88657dc5c226645f5261ff3590aad4c499306d7d57da6c071548ed2bcc39",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/leg-animation.png",
+      "bytes": 258,
+      "dimensions": [
+        60,
+        17
+      ],
+      "rgba": true,
+      "sha256": "8d13a5c4882d0641dfa52793266831934f407f109f8f63602d65ebde93ae6a22",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/leg.gif",
+      "bytes": 305,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "9bc4d9454e5733e67bf89a244b84a964870d331d034e5a4f0aa9fc48b3ff3295",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/tank-base.png",
+      "bytes": 4545,
+      "dimensions": [
+        86,
+        84
+      ],
+      "rgba": true,
+      "sha256": "80326ba0ec7ab0215b23b1e0cf6acf676c79b158e712f461fc1236eb2be7660f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/tank-cannon.png",
+      "bytes": 4265,
+      "dimensions": [
+        73,
+        50
+      ],
+      "rgba": true,
+      "sha256": "528df94d70218dcca8e5ec34fae9f5e06c989852a8a5b912f63450691119bf30",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/tank.png",
+      "bytes": 5753,
+      "dimensions": [
+        95,
+        84
+      ],
+      "rgba": true,
+      "sha256": "378be4d5dbc1b6272e6f9d156274a22793262cb88761ea2d726a45232c0a5618",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/1.gif",
+      "bytes": 514,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "d7da86e06fafc4408621fa19dd2335163eeea2b58395d5340eb08b2143df3a84",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/1.png",
+      "bytes": 634,
+      "dimensions": [
+        222,
+        37
+      ],
+      "rgba": true,
+      "sha256": "2f9012bab2c1e4c1e8b62a36e3b0e87a78a59274d787b58f03c9b3c2a94d79c4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/2.gif",
+      "bytes": 1015,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "efe75328aef5ba3ad75d0ecf1182f9b86eb0cce1176f092e577989db544e110e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/2.png",
+      "bytes": 1300,
+      "dimensions": [
+        282,
+        45
+      ],
+      "rgba": true,
+      "sha256": "ecc44bfffc0f79b2c6bd55fb19885f96ceb008adcb8a00cdd608d7899de21df0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/3.gif",
+      "bytes": 617,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "8331d688070181be2cc80ad846ac466286d39f44bbf6827d11ed89809479ece0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/3.png",
+      "bytes": 522,
+      "dimensions": [
+        192,
+        33
+      ],
+      "rgba": true,
+      "sha256": "a2485918f13c63c9cde975dce8820ead7f65470b4a35d85db8bac5b24ecbe8aa",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/4.gif",
+      "bytes": 396,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "32813ab7df57955cfe1d77cddd7fd6c7512da9b9e9f2cbe6b2ddafa6ac64236b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/4.png",
+      "bytes": 330,
+      "dimensions": [
+        96,
+        16
+      ],
+      "rgba": true,
+      "sha256": "4acd8e3ead00c19fe8923c96abd5c09580ad50293fb09cc832c82af0ed7f4d55",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/5.gif",
+      "bytes": 863,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "eb4cabdd665acbdd7e9d7570338042eec714270a2b48a00034a40a64e0b64784",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/alert-sign.png",
+      "bytes": 2898,
+      "dimensions": [
+        10,
+        19
+      ],
+      "rgba": true,
+      "sha256": "dfe3bbd2e9452040863df7ad4d7e90ce7daee12176afdc96659e518aafd98ace",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/explosion.gif",
+      "bytes": 888,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "23c67f2b3baf7333ebca25c8fb27074bcae11cbb58170613cc5e0663ac1ffd7e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/effects/explosion.png",
+      "bytes": 1305,
+      "dimensions": [
+        245,
+        36
+      ],
+      "rgba": true,
+      "sha256": "470c1faaedbae4347be139afb4c7fcf6cb3853f6bcb0fef81fd9462029f098de",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/ammo-empty.png",
+      "bytes": 2862,
+      "dimensions": [
+        11,
+        16
+      ],
+      "rgba": true,
+      "sha256": "4f3e5916aa73f30c6074932ab6fc389ce151c725ac4cbcec6c29f6714e1c93b7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/ammo.png",
+      "bytes": 2920,
+      "dimensions": [
+        11,
+        16
+      ],
+      "rgba": true,
+      "sha256": "06f0595b7142be6c4587951dcffde60e0cd75e6476b53e5a726cdd92a99241c3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/arrow.png",
+      "bytes": 2932,
+      "dimensions": [
+        28,
+        31
+      ],
+      "rgba": true,
+      "sha256": "6a8bcd7798e65ef01d4109c2f4c4a1cda2b0674853f0ad4de1c6ab05492ec5e2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/cursor.png",
+      "bytes": 2833,
+      "dimensions": [
+        19,
+        19
+      ],
+      "rgba": true,
+      "sha256": "4913a11ead5edbcc707b29523b8c88780ebce9f5573999e1f445d9fc187db084",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/example.png",
+      "bytes": 3206,
+      "dimensions": [
+        79,
+        26
+      ],
+      "rgba": true,
+      "sha256": "977390debc7662e9bfd1f4608b181a9b2df27d164518932a22d5b3aa3d0e7424",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/life-box.png",
+      "bytes": 3135,
+      "dimensions": [
+        79,
+        26
+      ],
+      "rgba": true,
+      "sha256": "a6df9a92ba57b353edd7d8de0ac4befde8fb2f46c354320f69c4752ae203aa0c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/life-rectangle.png",
+      "bytes": 2840,
+      "dimensions": [
+        6,
+        14
+      ],
+      "rgba": false,
+      "sha256": "f4a56f8ffea1851265dab5beec491b626dbff18519c1a2a5e4c2cff8af86208d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/part-1.png",
+      "bytes": 2978,
+      "dimensions": [
+        15,
+        26
+      ],
+      "rgba": true,
+      "sha256": "71ca8b1440c4a72aef15e9cea73abeb82ab387e0e513919ad0db8ce5d285d03f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/part-2.png",
+      "bytes": 2826,
+      "dimensions": [
+        7,
+        24
+      ],
+      "rgba": true,
+      "sha256": "c412c6d4d78d56326fb21e64331cb0898d34d5446a716d71594c52e8e208634c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/hud/wrench.png",
+      "bytes": 290,
+      "dimensions": [
+        26,
+        26
+      ],
+      "rgba": true,
+      "sha256": "612af89dc9082552fa5c281207055202830d94dafe4abaccc6cf589019722eb3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/item/ammo-pack.png",
+      "bytes": 2925,
+      "dimensions": [
+        16,
+        17
+      ],
+      "rgba": true,
+      "sha256": "e6f424d3de0239eec1085654ddb1d8c835d30895e60a5dfd2f453acea7b22f03",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/item/barril.png",
+      "bytes": 3257,
+      "dimensions": [
+        25,
+        25
+      ],
+      "rgba": true,
+      "sha256": "67d4f7490447b85a67d37750166a53c47aa9a5a34ff55d3859e836c06f9d5fa3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/item/grenade-pack.png",
+      "bytes": 3126,
+      "dimensions": [
+        23,
+        19
+      ],
+      "rgba": true,
+      "sha256": "9d1c8ec46e98864259f6780df079b5ab03e110101531ba437cf5cc33f1e103df",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/item/grenade.png",
+      "bytes": 2925,
+      "dimensions": [
+        10,
+        11
+      ],
+      "rgba": true,
+      "sha256": "704b1adacd8e5ad993af462c7087d665b1cf6e270d127f95d3bc1784e8983ecb",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/item/medikit.png",
+      "bytes": 2922,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "6e071cc9959b6c000e41030f8c008ca94ba5a3083135cd93fd7fe3cea6b9859c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/music/theme-1.ogg",
+      "bytes": 780253,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "ef6cdd7ff422bae82c19f6b63512a29ea7de1781a7e237886259582ebe671999",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/music/theme-2.ogg",
+      "bytes": 597425,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "dceb32725fcfe35aedec6909af05d3f58330c413021be46ba82508d8085630ca",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/music/theme-3.ogg",
+      "bytes": 515110,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "f1278167f25a57cdec028171fe55caddc175945885adcf5072515f20127ee85c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/music/theme-4.ogg",
+      "bytes": 254009,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "4526d735184c503d301e7940841fe98c5fac5caa7e8145f21f69d68529a22088",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/alert.wav",
+      "bytes": 53312,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "152ca5b04400dadd356169eb7c43546c481d635fe0300b9369ecba0d5936e37e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/cure.wav",
+      "bytes": 107928,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "bcf9b538879bbd09ec662c9719859f7585856430221d71e7ce5663dbfc860315",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/death.wav",
+      "bytes": 63332,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "1053bebe17f03e60e31b65231bcdb7d0ec1e9bfdc5950b7093af9d8c39122636",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/explosion-1.wav",
+      "bytes": 104408,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "ff13b4d68c10a7a8e6898f48fe1e5af20eb5b216951d6ff76fed4e234dd785ab",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/explosion-2.wav",
+      "bytes": 138986,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "df98326edd9e509e38b4ed239fb976e2b7c7bddf7a2790add4fbe9745224dd99",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/explosion-3.wav",
+      "bytes": 93896,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "9024b91e8d9a611d22dc6e68e267374883942c0b622c3194633a23c04895774c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/flame-thrower.wav",
+      "bytes": 142768,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "4776b9ae4e235c8596a25ec12e01a3801309b2816c42e2747d0aca0bc04d5ff4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/hit.wav",
+      "bytes": 325838,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "df0c869dc804c7f9b4cfea4a5905af1a90b80f99f96e22842a1bc73b7d4c51d9",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/no-ammo.wav",
+      "bytes": 20844,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "4a44e35a939623cc9afb8a0897f28512564a3bda228fe38291d4b45d21754564",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/shoot-1.wav",
+      "bytes": 78308,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "225d0feb6172ca210e1a340157c7ed1b28c49b2d6b2795edbd98d94d6781e9e5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/shoot-2.wav",
+      "bytes": 49452,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "28217ae440199d59b8d4657bac4ccf3d509969ab41991b3c8f81cc2cdcce9407",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/shoot-3.wav",
+      "bytes": 82732,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "826cddf733bbcc8ba6ea2d96b52e53e8ef0d9febb3ba727514b35ec8e0addd8a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/shoot-destroy.wav",
+      "bytes": 93896,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "b6c1f3a618ad318446daac5affa9c3f911a9827999c26fdc432c3b681b707a7b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/sword-1.wav",
+      "bytes": 240722,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "ef7dcd51fcd537d0fefc24de349b41de69f8ba5447ad1587031488c4d139b95d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/sword-2.wav",
+      "bytes": 59704,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "a7450111b69f5715d4767250581439a667745d095cbf72dffd760fd39156e6c2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/window-hit-1.wav",
+      "bytes": 18176,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "9075843549912bebb1361f7c01707a859f0e5ca15a9d06e55faedd00cc7c39ba",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/sounds/window-hit-2.wav",
+      "bytes": 36468,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "e544dc9417ec574cb72ed1ad34b76abb93d8002f06c01e57113573bb4acd31d1",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/1.png",
+      "bytes": 3043,
+      "dimensions": [
+        24,
+        16
+      ],
+      "rgba": true,
+      "sha256": "f20fa2dc1131e160d49367fb787370601954490ec45907e0ad9e63bf2a5a196d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/10.png",
+      "bytes": 3148,
+      "dimensions": [
+        27,
+        17
+      ],
+      "rgba": true,
+      "sha256": "c3ad268a44f9384e159c990ed7262cb5f00e215c3f246ead9d5595be79a197a6",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/11.png",
+      "bytes": 3250,
+      "dimensions": [
+        38,
+        18
+      ],
+      "rgba": true,
+      "sha256": "d28da3ee62db6ae587ab77e5b9ce521511f50cf0e80a8e9a8c3cf3a74a573b91",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/12.png",
+      "bytes": 3030,
+      "dimensions": [
+        17,
+        15
+      ],
+      "rgba": true,
+      "sha256": "195ccbd331079c7cc2cba0676b651fc7e5f636eb4f4d10029d56cc0d9215b1e6",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/2.png",
+      "bytes": 3125,
+      "dimensions": [
+        28,
+        16
+      ],
+      "rgba": true,
+      "sha256": "472ed6386ce96ab5589eaa73017b3a5e330a4ee834b994c37e7ac8f1786cc3ba",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/3.png",
+      "bytes": 3048,
+      "dimensions": [
+        25,
+        16
+      ],
+      "rgba": true,
+      "sha256": "e729875dad86520930812ea4dd8f4304e0ebc8b61011acbece3cd78e7ea91993",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/4.png",
+      "bytes": 3181,
+      "dimensions": [
+        33,
+        16
+      ],
+      "rgba": true,
+      "sha256": "0c872d25dad668cfa7facb71ef1b9eeede957d2071b39246c92484e2cba3f203",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/5.png",
+      "bytes": 3055,
+      "dimensions": [
+        36,
+        13
+      ],
+      "rgba": true,
+      "sha256": "3451a6e3f9d978f08d0aefa1beed1f8a606caa0e1e611710248cd0d5a964f33a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/6.png",
+      "bytes": 3068,
+      "dimensions": [
+        23,
+        16
+      ],
+      "rgba": true,
+      "sha256": "1832b0caa88c20487ef1ffa6b756c4d77e535071d3de888c064cee4da66f5dd2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/7.png",
+      "bytes": 3056,
+      "dimensions": [
+        22,
+        15
+      ],
+      "rgba": true,
+      "sha256": "3022eb91ea202c48eea1c2846345effed4eb23b088411bc33ad678974f5a97cb",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/8.png",
+      "bytes": 3111,
+      "dimensions": [
+        29,
+        18
+      ],
+      "rgba": true,
+      "sha256": "3444f8ca3b46bd9ec6b0bb31ebb787fdb61b020aea7328602d8ab0a532124fd5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/9.png",
+      "bytes": 3128,
+      "dimensions": [
+        32,
+        16
+      ],
+      "rgba": true,
+      "sha256": "5e1896d0f6248bc2bfa4ffd123e4faf0814c160e2bd9a9ea7b3a5a1f0be642bd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/weapons.png",
+      "bytes": 2298,
+      "dimensions": [
+        456,
+        18
+      ],
+      "rgba": true,
+      "sha256": "af81fdef22e6b4cb78b9b6ea7f4b5a77ed0a2eb2f4a4c309f5cb5fb858e080c8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/1.png",
+      "bytes": 2872,
+      "dimensions": [
+        8,
+        11
+      ],
+      "rgba": true,
+      "sha256": "d410e846e80b0209c40384dd550ff0215c93e85e4f6a45baadf54b2efcd1a698",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/10.png",
+      "bytes": 2964,
+      "dimensions": [
+        12,
+        11
+      ],
+      "rgba": true,
+      "sha256": "709898c1fc3ae1d1dbf68810b88e26048709a15f8c6007987eb23e5d3d310214",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/11.png",
+      "bytes": 2934,
+      "dimensions": [
+        10,
+        15
+      ],
+      "rgba": true,
+      "sha256": "b55f4c9f11e1fce68879d5dae0f015fd88b3831ee26dc51871efa31242468abd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/12.png",
+      "bytes": 2948,
+      "dimensions": [
+        11,
+        10
+      ],
+      "rgba": true,
+      "sha256": "1ceb39bde094cc5e2155d02a8b406a6b015520c19a2de4b7102b4620a7a34588",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/2.png",
+      "bytes": 2928,
+      "dimensions": [
+        12,
+        12
+      ],
+      "rgba": true,
+      "sha256": "9f37bb54bdf85171a224166366715a870d707d3873ec88c66728071b96086e3b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/3.png",
+      "bytes": 2897,
+      "dimensions": [
+        7,
+        13
+      ],
+      "rgba": true,
+      "sha256": "19c09682d0dc1d2788d7019ff017bf8c136f3f750e3575f249c4cdb301ae3766",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/4.png",
+      "bytes": 2944,
+      "dimensions": [
+        9,
+        15
+      ],
+      "rgba": true,
+      "sha256": "e510b538753b124dafd01de48d99b594176db3627e26a8e9aaf91d6013ffeccd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/5.png",
+      "bytes": 2932,
+      "dimensions": [
+        10,
+        18
+      ],
+      "rgba": true,
+      "sha256": "063dd8b0a2bab2ece098ef2cfbd4652d93925257f49c5662253490d0c8f3c67d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/6.png",
+      "bytes": 2900,
+      "dimensions": [
+        10,
+        13
+      ],
+      "rgba": true,
+      "sha256": "47b5b8b29249376a09a6785d632e4754bbdcc78e0d820f5d48eb3db135daca3e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/7.png",
+      "bytes": 2881,
+      "dimensions": [
+        8,
+        11
+      ],
+      "rgba": true,
+      "sha256": "08a40b99642755e1eb8d9bca1e72b8cd1d90543e1dc5fdd42001524153162213",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/8.png",
+      "bytes": 2916,
+      "dimensions": [
+        9,
+        13
+      ],
+      "rgba": true,
+      "sha256": "535e297b52da87292bbb8a6a0adeff5074243cae0225d7935bba963e6632bb33",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/9.png",
+      "bytes": 2874,
+      "dimensions": [
+        11,
+        12
+      ],
+      "rgba": true,
+      "sha256": "e1dc4808eb46ec54db8efa190ad7a6b783e9273ab3241671b2ec06f63a19177a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/all.png",
+      "bytes": 3633,
+      "dimensions": [
+        144,
+        18
+      ],
+      "rgba": true,
+      "sha256": "b739dff9621de4385d561943e91e78aaf4ac637adf604e95bb7b2f42b3630400",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/attach-to-body/example.png",
+      "bytes": 3147,
+      "dimensions": [
+        22,
+        26
+      ],
+      "rgba": true,
+      "sha256": "02d41f281d9ab5e93b2356f2c58f2f14428b56ed1f22b7260805d2d7ef642564",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/1.png",
+      "bytes": 2945,
+      "dimensions": [
+        13,
+        13
+      ],
+      "rgba": true,
+      "sha256": "2cb5a97a10763627eccf4d379759fc7c116453258b38be7ba51d135c3c8ad6cd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/10.png",
+      "bytes": 2932,
+      "dimensions": [
+        15,
+        15
+      ],
+      "rgba": true,
+      "sha256": "e47b3a13e9341c6920e0e2114c616356dbf2c5e271ffd9e854500c0b5ef0c285",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/11.png",
+      "bytes": 2879,
+      "dimensions": [
+        43,
+        10
+      ],
+      "rgba": true,
+      "sha256": "d7f31ea3680df9eebbe6698707469710216b7b1a1070fd77ae307f15003bf523",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/12.png",
+      "bytes": 3105,
+      "dimensions": [
+        30,
+        22
+      ],
+      "rgba": true,
+      "sha256": "2ad059772e9775a594fea2d234cd171a4b23c4d1840f6acc5c44b6896196e17f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/2.png",
+      "bytes": 2951,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "20f5401390034b6322e20d90349ee2902e6594724acfa766ed55f765744e0209",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/3.png",
+      "bytes": 2853,
+      "dimensions": [
+        10,
+        10
+      ],
+      "rgba": true,
+      "sha256": "4822a980a038a13a437f291dc3120f0c7b43cbc8a4bac049cfb08d5b0e1f2f06",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/4.png",
+      "bytes": 3046,
+      "dimensions": [
+        25,
+        13
+      ],
+      "rgba": true,
+      "sha256": "268a54be138b1350d4f5acccd99048d95809d4008a29c4e1a2754472ac79df1d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/5.png",
+      "bytes": 3015,
+      "dimensions": [
+        22,
+        38
+      ],
+      "rgba": true,
+      "sha256": "e7af590fcc8f93b9c00210be26b4b4bf6ab656b5d149622bb69855e0a645e54c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/6.png",
+      "bytes": 2895,
+      "dimensions": [
+        15,
+        11
+      ],
+      "rgba": true,
+      "sha256": "93e7a8f0754bbe61080fcc27d29a2668807f90e7251949d645f8af08ab1dbc32",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/7.png",
+      "bytes": 3006,
+      "dimensions": [
+        25,
+        19
+      ],
+      "rgba": true,
+      "sha256": "cc431ff74049524090086bf861dce688dd8ced11c24f28e76554299b06ecc270",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/8.png",
+      "bytes": 2875,
+      "dimensions": [
+        11,
+        7
+      ],
+      "rgba": true,
+      "sha256": "9e345dcf6dbe45549830696bdaac377b1795b9d14f516bcccafc9548f2e6a29e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/9.png",
+      "bytes": 3006,
+      "dimensions": [
+        20,
+        20
+      ],
+      "rgba": true,
+      "sha256": "c2f18291ecfb8c83eea06c2bf88e140f7ae8e3402a1fe04b86dbe9770833cee2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/Bomb.png",
+      "bytes": 3064,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "d87ce7f4a167777a1c297d84e4f7dfb39af764487560773d2019634c76dc175c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/weapons/shoot/bullets.png",
+      "bytes": 1406,
+      "dimensions": [
+        516,
+        38
+      ],
+      "rgba": true,
+      "sha256": "72458fef42831b04d722210652d89c5809252855bdd980aa9ce92001eae1eaaf",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/body/1.png",
+      "bytes": 2933,
+      "dimensions": [
+        22,
+        13
+      ],
+      "rgba": true,
+      "sha256": "f7e87cea213d29f802d52721916e9aed50d5bb9fd4d9635f9e4557191c06a171",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/body/2.png",
+      "bytes": 2942,
+      "dimensions": [
+        22,
+        13
+      ],
+      "rgba": true,
+      "sha256": "ee8d6f80592d579c8c3f265dcc4d4f9300981340a7eb37eff96c9f75d62c3108",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/body/3.png",
+      "bytes": 2944,
+      "dimensions": [
+        22,
+        13
+      ],
+      "rgba": true,
+      "sha256": "12af7f92a1dd5c639bbeb488f06485ab162ce4755118ea19392b1d6678eabe97",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/1.png",
+      "bytes": 2960,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "6a8c954a9611f5029654bd5d3af149c041cf0d4ac5495aec02a2477ab71289f8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/10.png",
+      "bytes": 3035,
+      "dimensions": [
+        17,
+        17
+      ],
+      "rgba": true,
+      "sha256": "eb780993a0ae3d3f13d0d1de060802e8977068a5e48cb641d1ec0f3d9c610f8b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/11.png",
+      "bytes": 2934,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "31db1eeb976a486d014a5eb26608cabf9386a52c486e487c7948c43eb70d9267",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/12.png",
+      "bytes": 2941,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "08870d18eaeb2bd74247d3d0a69d94fa65768ea89a5549904a4ac60bc5d46c13",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/13.png",
+      "bytes": 2969,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "b5995ae0f168aa40b3d0faf6221d97a12fc5a1a6ea2ac4d09f04255520a275d8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/14.png",
+      "bytes": 3059,
+      "dimensions": [
+        16,
+        17
+      ],
+      "rgba": true,
+      "sha256": "626ab725a491e3379eda4e8f191cb55e08ea6257dea90994196a8a804b985d53",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/2.png",
+      "bytes": 2946,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "774d60c10f2e0b407e44a4386fd9e554f267ce3b21cdde15e3b4ca5859673023",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/3.png",
+      "bytes": 2968,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "d258029a635361f7525f60c20d836ee213e53cea91603fc744043df28299fc19",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/4.png",
+      "bytes": 2982,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "8e0b338fc4c60db2847e3d0836e4150b5bffb94b053a5a94ad4564b75f5f3529",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/5.png",
+      "bytes": 3032,
+      "dimensions": [
+        16,
+        17
+      ],
+      "rgba": true,
+      "sha256": "371411046775e1108763beb64a48bb337aa65d902a2d57671dc91c5063763534",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/6.png",
+      "bytes": 2988,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "460fdb0e122fa09563b88ffaa1bbf14a81c31d190d133907df413b354b6d7df9",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/7.png",
+      "bytes": 2949,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "e152260d2e73b22b3e21083a4f1f0038f7151bee0e4dff34b1331621646eb074",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/8.png",
+      "bytes": 2976,
+      "dimensions": [
+        16,
+        14
+      ],
+      "rgba": true,
+      "sha256": "aa252fc0971c3fa7bb2e22c4f674c8831e66b66754a564e06bc263d1641453c8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/head/9.png",
+      "bytes": 2988,
+      "dimensions": [
+        18,
+        16
+      ],
+      "rgba": true,
+      "sha256": "1b9e3a98f8fd922ed3ae9bd426305a357b0370160c92d1b5e6983e7870626870",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/robot/body.png",
+      "bytes": 3324,
+      "dimensions": [
+        38,
+        34
+      ],
+      "rgba": true,
+      "sha256": "de0902cc6eeee2139ce8ff3538faf742fc91c1cd337d9c090c445be289ecb3f0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/robot/example.png",
+      "bytes": 3670,
+      "dimensions": [
+        50,
+        41
+      ],
+      "rgba": true,
+      "sha256": "46b138422048bdc9348f10928a04f1fb5099f732ed9fa9ea44225a334c379fa2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/robot/head.png",
+      "bytes": 3054,
+      "dimensions": [
+        22,
+        17
+      ],
+      "rgba": true,
+      "sha256": "935fde27566d9b256d16cd54bd67bd534ff66233d28a684822686a9cd1da3bad",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/robot/leg.png",
+      "bytes": 265,
+      "dimensions": [
+        60,
+        17
+      ],
+      "rgba": true,
+      "sha256": "a54b19f0e6359b90813512a306d33bff747586fe66f8fbb25da5a578ee49f14a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/robot/weapon.png",
+      "bytes": 3235,
+      "dimensions": [
+        50,
+        31
+      ],
+      "rgba": true,
+      "sha256": "ec8309618f0298b84a6c66bb513fb72f7d8b4836cbf036722f2b1d5460be05ef",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/turret/1.png",
+      "bytes": 3199,
+      "dimensions": [
+        25,
+        26
+      ],
+      "rgba": true,
+      "sha256": "423e318cd054af4b83e0f0f211cafbe8da88ec9b8f924e402d3d639390d8e1c0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/turret/2.png",
+      "bytes": 3131,
+      "dimensions": [
+        25,
+        26
+      ],
+      "rgba": true,
+      "sha256": "eae4ffd847a397731d89c8a87cdc927a889b2e794cc9d6ffde3738e20f7ce2f4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/turret/3.png",
+      "bytes": 3145,
+      "dimensions": [
+        25,
+        26
+      ],
+      "rgba": true,
+      "sha256": "68b6ec2c8a1a06d4b7ccbd8097581b9cfa23cc913946435e3b127bc766fa79bb",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/characters/turret/base.png",
+      "bytes": 3238,
+      "dimensions": [
+        29,
+        29
+      ],
+      "rgba": true,
+      "sha256": "147e759961b329248b2c703702181ed1961a8946f858fdec42624580621a6833",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/window/particle-1.png",
+      "bytes": 2818,
+      "dimensions": [
+        3,
+        3
+      ],
+      "rgba": true,
+      "sha256": "504e3a0ca31736be219e985b1f80bfc07602165a7d3348ee89c06caad76d2f56",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/window/particle-2.png",
+      "bytes": 2826,
+      "dimensions": [
+        4,
+        4
+      ],
+      "rgba": true,
+      "sha256": "e1ecef8e748cd5fe043b1021b7b670fcca45932bd0db3a69c9f086932cc6f04b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/window/particle-3.png",
+      "bytes": 2852,
+      "dimensions": [
+        6,
+        6
+      ],
+      "rgba": true,
+      "sha256": "2a9c398ec2d8dc748971b93238cbc55a757a66b96e864da159945c3bcf773777",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/window/window-horizontal.png",
+      "bytes": 2844,
+      "dimensions": [
+        16,
+        7
+      ],
+      "rgba": true,
+      "sha256": "93a717de90323a6d62a4ce815c5da578301f0b0f867b9debe8a04e4366e586e2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/top-down-shooter/background/window/window-vertical.png",
+      "bytes": 2854,
+      "dimensions": [
+        7,
+        16
+      ],
+      "rgba": true,
+      "sha256": "1ff326f79ee2b009d29d3596beb2ad08f51ac42dafc256543dbf1fdd3c9784a5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/1.png",
+      "bytes": 13835,
+      "dimensions": [
+        640,
+        480
+      ],
+      "rgba": false,
+      "sha256": "9b6bec6d8ca0da18d31db6d37be9dfeda702bd58664878b3268a98a5b48709e3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/2.png",
+      "bytes": 15738,
+      "dimensions": [
+        640,
+        480
+      ],
+      "rgba": false,
+      "sha256": "5823e9dffed6f31fd1fc1d476e394c6428ace28f581cb473f708ff865b970635",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/3.png",
+      "bytes": 16892,
+      "dimensions": [
+        640,
+        480
+      ],
+      "rgba": false,
+      "sha256": "6941f142b5735336dacde923540d8a845a10c23d87631e563a26a87d332c5a28",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/4.png",
+      "bytes": 17888,
+      "dimensions": [
+        640,
+        480
+      ],
+      "rgba": false,
+      "sha256": "0f7ccbd570d195b65fb51687a806f1721896cd0893aa3a6dca9fc47bd418ac20",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/5.png",
+      "bytes": 27448,
+      "dimensions": [
+        640,
+        480
+      ],
+      "rgba": false,
+      "sha256": "b8147fe84b0bf4538a2e0eda5b7be6a56b6f7f2e223f897cba1c980e90a25c3c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/black-hole.png",
+      "bytes": 4430,
+      "dimensions": [
+        97,
+        75
+      ],
+      "rgba": true,
+      "sha256": "a9961f7c705eb0d9bcb86b002900aff4061225d60353c7c49f148c3071b26767",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/meteor-1.png",
+      "bytes": 3678,
+      "dimensions": [
+        42,
+        39
+      ],
+      "rgba": true,
+      "sha256": "77b09630743a1f36b7964fae2ce5aaac243561fe27afbca9c017d7c5d4b8ad5f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/meteor-2.png",
+      "bytes": 3150,
+      "dimensions": [
+        22,
+        20
+      ],
+      "rgba": true,
+      "sha256": "e690aeeb7d7fe3edc57f3cf2c3fc707a6cb3452297611b434a86caace61d14b0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/meteor-3.png",
+      "bytes": 3221,
+      "dimensions": [
+        31,
+        36
+      ],
+      "rgba": true,
+      "sha256": "b7d2c88b5b76188b3c8aebe26dab7228a21f4f00718fdbdc082183fb68cf4100",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/meteor-4.png",
+      "bytes": 3134,
+      "dimensions": [
+        26,
+        27
+      ],
+      "rgba": true,
+      "sha256": "0ac97742a91c3956c9d00213adaf4316b39cf72c3d533ac1d04dfdb7d73d969e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/meteor-5.png",
+      "bytes": 2966,
+      "dimensions": [
+        17,
+        15
+      ],
+      "rgba": true,
+      "sha256": "c61ff88bf71c55374c524d6e8d2525122c25e73ff3180bf205d82d9fc1203ea5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/moon.png",
+      "bytes": 3404,
+      "dimensions": [
+        45,
+        42
+      ],
+      "rgba": true,
+      "sha256": "c2b57810f688a15ad7e9d503ebd46b996492b615fefe4b5ecd6f3333c6b13905",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/planet-1.png",
+      "bytes": 4235,
+      "dimensions": [
+        64,
+        68
+      ],
+      "rgba": true,
+      "sha256": "9ac4c9be250d00b89b36cd76a63fbd9714f3a227e04acd4ad2d0378ba7302969",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/planet-2.png",
+      "bytes": 4062,
+      "dimensions": [
+        63,
+        63
+      ],
+      "rgba": true,
+      "sha256": "e0fe5cb1b8bcefa1078667a523d220ed4941014efa19d9adf8f97ef55fde8288",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/star-1.png",
+      "bytes": 3250,
+      "dimensions": [
+        40,
+        37
+      ],
+      "rgba": true,
+      "sha256": "040c5ed54bd03d148bc4543f05a55e18b9acd91eed9bb8978628de6ad65bd6a8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/star-2.png",
+      "bytes": 3068,
+      "dimensions": [
+        27,
+        21
+      ],
+      "rgba": true,
+      "sha256": "559b6e6981f94f433e41c54b6a5321429e3255275ba7d6dfc5b0a472d4b16b93",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/backgrounds/stars.png",
+      "bytes": 5370,
+      "dimensions": [
+        495,
+        381
+      ],
+      "rgba": true,
+      "sha256": "511d0a229964a81ea6ed0810d5e1fb77d590c2c2755061b86e49c3070ca33d6f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/1.gif",
+      "bytes": 646,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "86ca2f7078e884e486dc9ad35006aeb3bd03dc29b22fe7170f6e5eee775e061c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/2.gif",
+      "bytes": 618,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "8d105d66d051ea4ba225a3ac5445194de21af2c39b14bb3433699df76669b01a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/3.gif",
+      "bytes": 525,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "6884e5c7fba375aaa985d4628c64aa06df85a8e021e7b19b56f156f1bb83852b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/4.gif",
+      "bytes": 494,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "ac7cb8bf1d3e63dd5afcca74f7416bcceddef1ea41e099e8ccb6e833fa7d5bb3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/5.gif",
+      "bytes": 356,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "559730be26740122e54a7c18c0b180575772a7a62797c8d6661ef9a6989d56e7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/6.gif",
+      "bytes": 410,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "bff8dc2689376f4c0247b6c67b70fd12a801658a7a7e878e5336a023329116dd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/explosion.gif",
+      "bytes": 2197,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "9520f1b282e5db9fdfe430f37382f410e43719a1f26b79adf1a3eaa6907222d7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-1.png",
+      "bytes": 741,
+      "dimensions": [
+        228,
+        38
+      ],
+      "rgba": true,
+      "sha256": "388337c0778bc9d9a675da47e944ac7d52a685df46a7f3d42d856aa37ecf3e2e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-2.png",
+      "bytes": 576,
+      "dimensions": [
+        204,
+        34
+      ],
+      "rgba": true,
+      "sha256": "eaf88de33ea7b45c01c4e44269d7e4a84a7056672ced18f75b5f5b1e31dfad19",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-3.png",
+      "bytes": 506,
+      "dimensions": [
+        180,
+        30
+      ],
+      "rgba": true,
+      "sha256": "70500c1cf4dd0a134caaf5aa8eae81bf2009b145131a570afb18e897e777a162",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-4.png",
+      "bytes": 648,
+      "dimensions": [
+        216,
+        36
+      ],
+      "rgba": true,
+      "sha256": "fac14694a8e5be38d8435ba63afc79519a55f9e7581dd1280c5df6ef5cb6bfb3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-5.png",
+      "bytes": 274,
+      "dimensions": [
+        70,
+        28
+      ],
+      "rgba": true,
+      "sha256": "9c1664aae8f9d274aa3d79ab4c59e20f7ef33b694dd5c60c1abbc6c64cc83c3a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-6.png",
+      "bytes": 406,
+      "dimensions": [
+        84,
+        28
+      ],
+      "rgba": true,
+      "sha256": "20bffb90984d54d3528cf268655dd9073f6e87843e292dad31ca0707c319e2b8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/fx-7.png",
+      "bytes": 3088,
+      "dimensions": [
+        656,
+        72
+      ],
+      "rgba": true,
+      "sha256": "0cf44e19436cb23a63b1b7dc427f6d764deaef99f157b0b42b428fe9640acb64",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/shield-1.png",
+      "bytes": 3610,
+      "dimensions": [
+        61,
+        61
+      ],
+      "rgba": true,
+      "sha256": "bed5c2e1787cfb60002017925de332099b43b4f06f6dafce31251a89ac8b7fcc",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/effects/shield-2.png",
+      "bytes": 3649,
+      "dimensions": [
+        61,
+        61
+      ],
+      "rgba": true,
+      "sha256": "3ec82e94133086d5cae92b17b7e1eab751804093487f823a5b79a9b8381c2060",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/energy-bar-fill.png",
+      "bytes": 2836,
+      "dimensions": [
+        60,
+        12
+      ],
+      "rgba": false,
+      "sha256": "9f09bfc4fe8a82f3b81106f5f8de2cea21ecd65f4b3ef8765763dd3d2ae9f2f8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/energy-bar.png",
+      "bytes": 3086,
+      "dimensions": [
+        78,
+        26
+      ],
+      "rgba": true,
+      "sha256": "5742e6383a2977569398babc501d117f4ca3df806ebf90e4d5ee36fd8e55c936",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/health-bar-fill.png",
+      "bytes": 2849,
+      "dimensions": [
+        80,
+        18
+      ],
+      "rgba": false,
+      "sha256": "f844ee21d2ace79af0b99caa7230a1061ae8a128f73dd2dd637a7e63bac77e84",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/health-bar.png",
+      "bytes": 3110,
+      "dimensions": [
+        98,
+        32
+      ],
+      "rgba": true,
+      "sha256": "775196ed5eb054f0d22c7207539923a098b46d8bdaf715b8a01a5707d38bd0cf",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/life-empty.png",
+      "bytes": 3196,
+      "dimensions": [
+        25,
+        25
+      ],
+      "rgba": true,
+      "sha256": "69c72d52f0e7c2daff868b2abf2d54bb30b61b7410b1bfb4ba7a9771a53f10fc",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/life-full.png",
+      "bytes": 3306,
+      "dimensions": [
+        25,
+        25
+      ],
+      "rgba": true,
+      "sha256": "592494359dbe97b99010cec66ba2573f8c6622a49ba13f152c10bc0814edf27f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/lives-icon.png",
+      "bytes": 3081,
+      "dimensions": [
+        28,
+        26
+      ],
+      "rgba": true,
+      "sha256": "33fb84c4119d24c99233542939f007006237001b15d434dbd6044bfb76555c84",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/hud/number.gif",
+      "bytes": 416,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "2c5a8983de4a0d5b891f404d52732239abd22f6de064e7999201d74f6fa88c70",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/ball.png",
+      "bytes": 2914,
+      "dimensions": [
+        13,
+        13
+      ],
+      "rgba": true,
+      "sha256": "63e49616429aef0bb2860f3924a76599dd48ec305e96ddf8c6ac05d1c52d51f0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/bomb.png",
+      "bytes": 2980,
+      "dimensions": [
+        15,
+        13
+      ],
+      "rgba": true,
+      "sha256": "5fa6df6e69598934716275332b561db5b98027a2bad17061fad678fb579c0759",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/bubble.png",
+      "bytes": 2876,
+      "dimensions": [
+        13,
+        13
+      ],
+      "rgba": true,
+      "sha256": "d8ca9d3e3c96b09a3984f45a8949b82110f240e61491997c291df5a83ea5d55e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/crate-1.png",
+      "bytes": 2976,
+      "dimensions": [
+        20,
+        20
+      ],
+      "rgba": true,
+      "sha256": "26c8fe4bc211134e8f811e7c074c4a750e3ea7e706ea74c010063df5c037b79e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/crate-2.png",
+      "bytes": 2976,
+      "dimensions": [
+        20,
+        20
+      ],
+      "rgba": true,
+      "sha256": "f88affdfef930a59d042ff89d59066cf0f61d2e233f0b5926937ca1e44da6c98",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-1.gif",
+      "bytes": 395,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "4c459601270613ae6658009291c01cd63edd74682afaa5c585c6a1321a0cddd0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-1.png",
+      "bytes": 369,
+      "dimensions": [
+        64,
+        20
+      ],
+      "rgba": true,
+      "sha256": "e4a6c97b9f383b8ef4f793f2c0ab19ab06119f30fd5cda2fc284a7027c477963",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-2.gif",
+      "bytes": 448,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "9af6680d98c0da45306d9d15ae7e8e6601c07d3e3907aa0e99e8fcc2918ca8ab",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-2.png",
+      "bytes": 465,
+      "dimensions": [
+        84,
+        21
+      ],
+      "rgba": true,
+      "sha256": "740ea9547fa03b8f5bb010cc45d75ba66d0810d6e1ff704aecc51f3a66ac718b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-3.gif",
+      "bytes": 427,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "0e503c4d3977bd204f719eb455115d0a56103826351c0ee94ef665e587ece287",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-3.png",
+      "bytes": 364,
+      "dimensions": [
+        80,
+        20
+      ],
+      "rgba": true,
+      "sha256": "059bf451c20b6e8a9142b725804f25bcefd3d055c5a6325b70e1cd77612728c2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-4.gif",
+      "bytes": 340,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "7fa3a5163031ad804d44c7947b5abe44cb547c27dd61407f336a33803581e9b7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/gem-4.png",
+      "bytes": 325,
+      "dimensions": [
+        60,
+        15
+      ],
+      "rgba": true,
+      "sha256": "3992843ece3d96f48ee2c9ed88eb9cd161849ffb1b7dd9f9d6efcb2c3005ce86",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/power-up-1.png",
+      "bytes": 3171,
+      "dimensions": [
+        24,
+        19
+      ],
+      "rgba": true,
+      "sha256": "fa373809671029838b752c5d62a2885931b176265df16bdb924fd2b82c643e05",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/power-up-2.png",
+      "bytes": 3174,
+      "dimensions": [
+        24,
+        19
+      ],
+      "rgba": true,
+      "sha256": "f96e6e74f6bd03e43af7822eed8dfdf07b5e4bf254c58c27b4faa152644015f7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/power-up-3.png",
+      "bytes": 3169,
+      "dimensions": [
+        24,
+        19
+      ],
+      "rgba": true,
+      "sha256": "e348d20d1abdbba46b0bbba3cdbae3b7b89560d69c01f3e0a5ba89210fefd532",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/power-up-4.png",
+      "bytes": 3156,
+      "dimensions": [
+        24,
+        19
+      ],
+      "rgba": true,
+      "sha256": "f23ef2912d6074854577405ac7aae4397ace39674ed6e28abc51cb943a910c80",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/power-up-5.png",
+      "bytes": 3210,
+      "dimensions": [
+        24,
+        19
+      ],
+      "rgba": true,
+      "sha256": "2b0b3b020c8e76aa5f0adcdc427985bfbe114074d60dbabf15d02f874c51afb7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/rocket-1.png",
+      "bytes": 3045,
+      "dimensions": [
+        17,
+        26
+      ],
+      "rgba": true,
+      "sha256": "7ea3a13a8bf90b081a34d4900721b4fb8c528d5aa44c1730f0a3f66761495ff3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/items/rocket-2.png",
+      "bytes": 3008,
+      "dimensions": [
+        14,
+        16
+      ],
+      "rgba": true,
+      "sha256": "51de2e052b19fdf9a64a7e4b50c6671d33d8c5dfce9b14dd0d73c53b3dd79469",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/music/1.ogg",
+      "bytes": 489385,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "61859992e6338204590074c4723becf4b888ad0a1cdd737a8bf9d1d189885842",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/music/2.ogg",
+      "bytes": 273973,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "3d0fb3a5ef53822068ed3e5268c546a90eb3aefc3ee81af27cd32367da1f6a31",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/music/3.ogg",
+      "bytes": 377516,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "33f3b3aaed757f2dba876d6cea4552d0aa84e51fb87906b4a31be9f8a0bec37f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/music/4.ogg",
+      "bytes": 409256,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "3535313daaff57bcf98e601276162ffb5ff0a288d042991b423cd8d2809c9bcf",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/1.png",
+      "bytes": 4412,
+      "dimensions": [
+        63,
+        51
+      ],
+      "rgba": true,
+      "sha256": "da0059fd22e4c2bd1bc6ccafaed57eba254d371b442d4a1ebd8b59eb58f0655f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/10.png",
+      "bytes": 3196,
+      "dimensions": [
+        27,
+        25
+      ],
+      "rgba": true,
+      "sha256": "aced2c4b9ba7767136cf0b4ad5ef7ad9ceae20b1ccc6a208a5ba3b841ea99012",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/2.png",
+      "bytes": 3638,
+      "dimensions": [
+        38,
+        34
+      ],
+      "rgba": true,
+      "sha256": "98b1f552c571d19b48d68ac32bf9ed469ddee58ec0ee48ec7a57e081aa7f0275",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/3.png",
+      "bytes": 3848,
+      "dimensions": [
+        46,
+        45
+      ],
+      "rgba": true,
+      "sha256": "7637161d1a32ebb50d2f10b0bc1c68981fe9c946833af22e2947844262bd0b20",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/4.png",
+      "bytes": 4006,
+      "dimensions": [
+        64,
+        47
+      ],
+      "rgba": true,
+      "sha256": "9bab686466511c146e2677ce424a8b8b24cbcade1e5b9124020973f5f64693e7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/5.png",
+      "bytes": 3141,
+      "dimensions": [
+        22,
+        29
+      ],
+      "rgba": true,
+      "sha256": "1e257a6b91c7e91f1ed2dd0869cbfc71f598f4c058a8f9801749cb20f92a96d0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/6.png",
+      "bytes": 3765,
+      "dimensions": [
+        44,
+        36
+      ],
+      "rgba": true,
+      "sha256": "ef67b2c7dc500880fc9593b97ac906cc06d6f2aa1d16430ab1f7253886d19a4b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/7.png",
+      "bytes": 5215,
+      "dimensions": [
+        90,
+        74
+      ],
+      "rgba": true,
+      "sha256": "086b34f6ed9d9d160709cb406555496684f72cf03abe9df595723a70630473c1",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/8.png",
+      "bytes": 6368,
+      "dimensions": [
+        98,
+        87
+      ],
+      "rgba": true,
+      "sha256": "ddfee76106c0dd90c0ba13e25cb2d3759f2a5a7da999d2350ae7adf45aeb7852",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/ships/9.png",
+      "bytes": 4052,
+      "dimensions": [
+        56,
+        51
+      ],
+      "rgba": true,
+      "sha256": "9668628235fb444a388d36d947ad983efbd3d21a0a411d94f6fb8ee9730bdc2b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/1.png",
+      "bytes": 3091,
+      "dimensions": [
+        14,
+        22
+      ],
+      "rgba": true,
+      "sha256": "d09a1488238d5c636c89100b12000ade6d8adf9461ef091bcb87999f97c869de",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/10.png",
+      "bytes": 3295,
+      "dimensions": [
+        34,
+        38
+      ],
+      "rgba": true,
+      "sha256": "7551119723bfbb91d1a6fb2e69d157da8a2c67b5816856be35f8f887f0bb8104",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/11.png",
+      "bytes": 3075,
+      "dimensions": [
+        19,
+        47
+      ],
+      "rgba": true,
+      "sha256": "71bc4f3dd5c1a274974aa6b2c7483a4c5e97270c227d95b8a43507a68cfd6ecc",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/12.png",
+      "bytes": 3092,
+      "dimensions": [
+        36,
+        47
+      ],
+      "rgba": true,
+      "sha256": "65bfbc204983b91f43f770b86a6ce91705ef7ed3678a9067da7ab16bda674c32",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/2.png",
+      "bytes": 3108,
+      "dimensions": [
+        16,
+        18
+      ],
+      "rgba": true,
+      "sha256": "9aa21cf54b7945a1f51c865ff8eb42d888fa95fc453cd3f6d6184aee2c1bd599",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/3.png",
+      "bytes": 2979,
+      "dimensions": [
+        8,
+        17
+      ],
+      "rgba": true,
+      "sha256": "82e1bb57f3f1e164bfd923843a5b27d04c41e6d87a8f414e127541557e7f5dc0",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/4.png",
+      "bytes": 2953,
+      "dimensions": [
+        10,
+        10
+      ],
+      "rgba": true,
+      "sha256": "a8484ca5511ef8655c4e1a1996f829d5f599fc9e733178057801fe587a3a23d1",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/5.png",
+      "bytes": 2995,
+      "dimensions": [
+        19,
+        17
+      ],
+      "rgba": true,
+      "sha256": "f356ecf8fe275c1ec942155827f56ce70cb8eb9794de5961b4e0c93fd143244f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/6.png",
+      "bytes": 3080,
+      "dimensions": [
+        18,
+        21
+      ],
+      "rgba": true,
+      "sha256": "8b3aaaf34d9351e2ef78a36dcafc63b9a44e9dd1f50c91852cc1e669d097aa7e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/7.png",
+      "bytes": 3047,
+      "dimensions": [
+        12,
+        17
+      ],
+      "rgba": true,
+      "sha256": "e4ff923c226c79b5b9319b313d6769b8b31b8df1b72bf68bf24ec12f85ac2df8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/8.png",
+      "bytes": 3403,
+      "dimensions": [
+        36,
+        44
+      ],
+      "rgba": true,
+      "sha256": "153618dd7e77e836c92d4475b76d7cddba30bb9f06bab73de91c76e17a9ef4b4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/shots/9.png",
+      "bytes": 3075,
+      "dimensions": [
+        31,
+        19
+      ],
+      "rgba": true,
+      "sha256": "39d46dae07372f2ceeadb12f38d052dffb1153e6756540dc2f6db9c955734299",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/1.wav",
+      "bytes": 58780,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "c20ef870a68e053926616791b481ded607a14e5a7060a244d6441c95dfc619b6",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/2.wav",
+      "bytes": 54612,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "abbd699689cd2d2bbc145bc174c0d7553ff362e9ce998401ff1d5984b3c07d2a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/3.wav",
+      "bytes": 111956,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "6dcc251cb3906c7f025e50a617f0eaff4b211eef141f65a51db33fa2dc10d65b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/4.wav",
+      "bytes": 81720,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "ac4b7c1855748be5b7551c5ad8ff032925eaa7205eb71b75aa4791d349d710c7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/5.wav",
+      "bytes": 325838,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "38f49e7a92eb5fb38db94bd907ee79bd9ea9e19ba1bc109712eaba654118ba0f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/6.wav",
+      "bytes": 113000,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "1a97d39e1d84a55f4f2cafa53bfefc2b4c2f65c9d7e72245e74c5889f55508e9",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/7.wav",
+      "bytes": 119776,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "1cab7b8e184776bdc7729db29bbd1638ddc8d3c04c13547462f3c44ba6ea87b2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/8.wav",
+      "bytes": 93896,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "4684bfe0d346c970dd098d80d04e2e246eab2eab064fbf070c9573cb044fba7d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/alert.wav",
+      "bytes": 55392,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "9223d7b9ca77d6b7a0f03fa8b4826b3dfa80edf8c424ada6919320a8038c6e5d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/boss-death.wav",
+      "bytes": 1020322,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "f8faaed1eacb90fc4029b8ae68664b0603101a845c643fb03d79f37716bd8e64",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/boss-shoot.wav",
+      "bytes": 176012,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "990ecdec1aa04d59620fb153015f1042524e49d42972a2befb9c07a121348092",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/dark-shoot.wav",
+      "bytes": 111992,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "558652b73d01d39a43c6bd2062ddd9154df429e3f3bb56a64f903fa3a9c4b4f8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/death.wav",
+      "bytes": 529378,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "efb8e254309cfca837915ebe29bc0beacd8dcf837dfaa444951fbf67dede0ef4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/gold-1.wav",
+      "bytes": 118648,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "5e69c212ac43628476f0a00cfd737b5ee4896aecbb2508d601cfae4673d74a4c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/gold-2.wav",
+      "bytes": 119776,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "f2e9223ec94bab519adb03efe5185c27acd9825a4669da5cc5aaa599dac2a518",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/gold-3.wav",
+      "bytes": 75724,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "de61ec173d0b77216edeba9a508e022a169827b43666bbaf01da2927200bf34e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/gold-4.wav",
+      "bytes": 119344,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "fb1d9a6734284af2e7bbc4ccdb029546e4ec8ea5e599ce188a815980fe5caa53",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/laser.wav",
+      "bytes": 251812,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "c1b5a29482a494d9ddb4ea34e8a55928fb9a67c364b5969f96ece3478cbb6d09",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/power-up-1.wav",
+      "bytes": 110740,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "172b514fd906073944d2a024071f82f14a450949653854b3ab7d71f5eca01a4a",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/power-up-2.wav",
+      "bytes": 529378,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "d9ea6118c2fd2b4f2e76b76f3f50beb49af3b1078741787bfe34e6adfe9a103f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/superpowers/space-shooter/sounds/power-up-3.wav",
+      "bytes": 529378,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "de50a409379cc2cb30e3c69999bdb144a990c4720ce60d9b250ce99a47f35b7d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/world_dungeon.tscn",
+      "bytes": 9683,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "b94dd8f6ce05bd68a78806f6b6963e8c3163ba4a2262b5b7441fc3ae30710dbc",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/crate.png",
+      "bytes": 229,
+      "dimensions": [
+        16,
+        24
+      ],
+      "rgba": true,
+      "sha256": "e602c9be47378d5f4bd767cb7c5487928d289c887131ccd9dd5a9ebd69570db8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/dungeon_tiles.tres",
+      "bytes": 3369,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "f42c132d66a80d305b18bae7f9ef75d89cc46e418ba9db9cfba3312d77207216",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/flask_big_green.png",
+      "bytes": 283,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "75d213846132d63f2ad328112c7462eee520480655bdcce2392ed3858bf5863c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/flask_big_red.png",
+      "bytes": 283,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "2393a6721ed0746641691088503631a2321830eea12bf6a89428e739942bcc85",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/flask_red.png",
+      "bytes": 242,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "21b97aa860dbbfb94e01b50ac4e618b517ed12ec919dc654b871fd3edd2ca561",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_1.png",
+      "bytes": 193,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "c3bb5fc5345452ec79a332ac9113c9cdf78b0473238b734bf5f4cc0839fb2e3e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_2.png",
+      "bytes": 267,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "a1825b4bff905026d6fe7f814874e2d59d1bfe6384024634db9af079ca64cc68",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_3.png",
+      "bytes": 243,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "2722a440e4fc3d9af1dffead6e061aa22d0c61c591baa6f3ed2742de26e465ce",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_4.png",
+      "bytes": 257,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "6db73d2fa83f01bbf7aa39d21f34101bc25b283e2244ab1e6bd2fec148112f73",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_5.png",
+      "bytes": 232,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "1507108b4bebdf2c416b1294303d9d1510f21257166b1e96aa66a0eae4dcaafb",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_6.png",
+      "bytes": 259,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "842ec56063be4d3e4d400272a5765feaa65683835b4e438718754489ab76917f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_7.png",
+      "bytes": 267,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "84241f9bfd2c699cbd5f2d0210da478464426e4edec4bc0fa02e11ab7cac594c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/floor_8.png",
+      "bytes": 251,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "2ee2dfeefda93a3979f74eeba9b45f7d066fe25fe01ff435bae245124fccdcae",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_frames.tres",
+      "bytes": 1307,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "f64785518d7f71767b0d8c9471c15194aa08b8541fbefc9517a2178e2190edec",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_idle_anim_f0.png",
+      "bytes": 204,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "9700edcd1ccde34594a8b3f53304c99e7d627a63835e4133c9679ace04646ce3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_idle_anim_f1.png",
+      "bytes": 203,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "5a71b9ac1d9a3077bb0e346496ec3cc1ca9c8be9c3fb1d7562154c31d5b7b686",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_idle_anim_f2.png",
+      "bytes": 178,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "d34dc993857a6a63931dd277576e567a3c5ae03f89d870b34b9c39903a3ee380",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_idle_anim_f3.png",
+      "bytes": 203,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "5a71b9ac1d9a3077bb0e346496ec3cc1ca9c8be9c3fb1d7562154c31d5b7b686",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_run_anim_f0.png",
+      "bytes": 215,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "ad346c922f6761c66b54ce3cdfdfb079fa068d6e3b95cc5fdcc31fddbccb5328",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_run_anim_f1.png",
+      "bytes": 216,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "3e4e6a30d662b1d8875e763ca3e5c9b7b6318d42ef28d116d310bd441ce189c2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_run_anim_f2.png",
+      "bytes": 237,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "3c5f05d7f67beb135ec33421b913c5f81188bb7b8f251d45dd5c1f0a83e00740",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/goblin_run_anim_f3.png",
+      "bytes": 232,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "63e1915bfb51cd50a6d2080bfe2269c986e8d22c8320514c3b94defb8f0f919d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/healer_frames.tres",
+      "bytes": 722,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "d34bfb1bf8f5ce8413f64b1e9f63a40cf6f3a9bdb4f9837817f8b94e5ffee53e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_idle_anim_f0.png",
+      "bytes": 347,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "cb03007dca8349a9e28f3da1bff73166c2e15a12dbf1d29fd885606d7fe2d3a5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_idle_anim_f1.png",
+      "bytes": 325,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "3be482c9fe4e9ed112fa48425a1d1bce41fe3db19f01a21e2d71ab95afbcf903",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_idle_anim_f2.png",
+      "bytes": 332,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "0b4ba985bd11bed1c417acea85ff3f2a87d46eeaf2cc16ea21da240c0e9f115e",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_idle_anim_f3.png",
+      "bytes": 341,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "ec86f8ab32ff8d6fe81fc4f8b0b31b51727507f95abec5d1452c77a45ea92fbd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_run_anim_f0.png",
+      "bytes": 348,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "7e4bf2334f9c1fdbc5039789dda79a601f5f29e1e40b42ffbc4f58a4ac19d077",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_run_anim_f1.png",
+      "bytes": 351,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "a41f1ffa99c94c18900559dde54806fbcf717e7f4fc0a8e25e869b0f0baa4fe7",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_run_anim_f2.png",
+      "bytes": 347,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "27a3b65f9485d32d209da4b0137cde5beadb76de5b8c828bfad2d83591e96cd3",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/knight_m_run_anim_f3.png",
+      "bytes": 348,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "e2b1b9762f3bf876f7738dfca1f026ef637e2564d5c457af258af288c64e8480",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/player_frames.tres",
+      "bytes": 1323,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "aaf9edc3d17514e84b133117a5b821935d30babe78e4646468d3c785c540e9c5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skeleton_frames.tres",
+      "bytes": 1307,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "3793f6976c530ad5b6ebda9b52cd5c636c44dd7cb34817a959ce6be9768788e4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_idle_anim_f0.png",
+      "bytes": 235,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "8e140a74ab56be33cb53280b0f773c9e31435c179405865f0adf5c356b4c99d5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_idle_anim_f1.png",
+      "bytes": 214,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "6cdbbe393bb0ae152b3ecb450c325dd023f9fe402cf972775b0fb64e9f921eb4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_idle_anim_f2.png",
+      "bytes": 200,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "cf364d1f2d327640496f29ff859b19f20e5a4960d4f990a7add24cdd1968bf8b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_idle_anim_f3.png",
+      "bytes": 215,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "887606e2091b18eb76f62f9a7646097caf46524388f2784db86b3f9654f40591",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_run_anim_f0.png",
+      "bytes": 233,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "131a61fcb412cd6f36f05cd4b401e30db1fbf21bc2a8b40e673ff97813246468",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_run_anim_f1.png",
+      "bytes": 231,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "1a07f42ec8cc67ac50dbf9d7b39954b6d9c35a9e5f34a1120a8abf4559719b76",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_run_anim_f2.png",
+      "bytes": 231,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "ad1e64c2a9c82e52ab7798e57f5bbe03085c30e2b21b8c70e67e2f744892fce4",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/skelet_run_anim_f3.png",
+      "bytes": 216,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "2adb17ce757d4030c25ab3ca8f5cbdb7805e34a3ee6ea2da1865f12d44246fec",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/ui_heart_empty.png",
+      "bytes": 201,
+      "dimensions": [
+        13,
+        12
+      ],
+      "rgba": true,
+      "sha256": "4bac97628ae2e68c5990860e559e915a11adc8ae31151fa9d8a5e75dedfe0e56",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/ui_heart_full.png",
+      "bytes": 210,
+      "dimensions": [
+        13,
+        12
+      ],
+      "rgba": true,
+      "sha256": "a53c2bf6a224a64a08010c73e19edbcb1f8099e9979180d912b476f7b29ad78d",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/ui_heart_half.png",
+      "bytes": 213,
+      "dimensions": [
+        13,
+        12
+      ],
+      "rgba": true,
+      "sha256": "b919523b9757f5aeda8628e36ccc98bcb881d5771e82f24286c5ced43eb11f4c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_banner_blue.png",
+      "bytes": 385,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "052f5954f9da77544f4523bff65c4ca47c70f64524903414517dd1faee53023c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_banner_red.png",
+      "bytes": 385,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "b2354b5a5b9f5c6ec78833e7b1f1bc0e1ff1a0bd85d2a598ec2dd4e3abbc92ae",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_edge_bottom_left.png",
+      "bytes": 183,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "bb60bf6580a84ad1dca54789410d37e4be3bea8df429c795164030b080ab37d8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_edge_bottom_right.png",
+      "bytes": 176,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "117a039b02f04b241e67a8c81e73d394496866d73ae6eb1e4452063362840d89",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_edge_mid_left.png",
+      "bytes": 149,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "5d09138498d091a0842335a3b4b2ecb00e847f1b46940b3b1e7674f6b9492645",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_edge_mid_right.png",
+      "bytes": 134,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "76d337a170d25efcec843dbdae0392ff739be09d194a9a5a53cc37ccac7bc987",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_edge_top_left.png",
+      "bytes": 137,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "ccb09d6c004d8258d66f027e3cd333d1ccffb0703beb7e6e5837681e110d146f",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_edge_top_right.png",
+      "bytes": 142,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "bd91d1faccd9668d8df57db5b1ea876861569c136aa9d7920d1e20cd2d141187",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_mid.png",
+      "bytes": 208,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "c70ac4cf5e7370cb1f9dee536882de26a0ec87295a1c962d77514ceda91d11f1",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wall_top_mid.png",
+      "bytes": 156,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "0709e46c7c159445bda8f7eb05f9fd0c786a432b6065a3bba4df15c69a7c6eef",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/weapon_regular_sword.png",
+      "bytes": 204,
+      "dimensions": [
+        10,
+        21
+      ],
+      "rgba": true,
+      "sha256": "3f06a67c06a00d261096c828af577749cd88eb4a6ae23743667d5d5351006b22",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wizzard_f_idle_anim_f0.png",
+      "bytes": 404,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "1b48c5f190164fa136ec0716a990c4b17be167a9fb381d7003fd03f5a40f5865",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wizzard_f_idle_anim_f1.png",
+      "bytes": 418,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "65144f67dac0c0ef9037ef75cb7e8e33cf9eb3bf952d44e8d7015ef9c9264598",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wizzard_f_idle_anim_f2.png",
+      "bytes": 372,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "c07e7c8290c6f7bce1ed9043b750237e2a3e319607c85fe0ef61c6d49ed3ea38",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/wizzard_f_idle_anim_f3.png",
+      "bytes": 371,
+      "dimensions": [
+        16,
+        28
+      ],
+      "rgba": true,
+      "sha256": "17aecc1f790a66459a595d5274b8d72371a83814675c7c5a27a6a8d4e739849b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/chest.png",
+      "bytes": 196,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "0b9fa753068061e816246437466d0c9d3100375ff12b77fe9459a801265c83c1",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/coin.png",
+      "bytes": 162,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "d432578df64a8e4cc5cefe559129badefd30a9e9ad988eef6e1470bba7eb9fc1",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/dirt.png",
+      "bytes": 99,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "63519065228f5f8af6200d979fa54cd7f00650034ceea10a1609203a34b3ff9b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/fence_post.png",
+      "bytes": 144,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "0928b0048900bad8a7d66b55634b099ed810b1dd2fdca7f80739c0ab8374825b",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/grass.png",
+      "bytes": 99,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": true,
+      "sha256": "d4c692ef80ee97b3395b885ae07020d42a106683ff3650df240f8e972bd5a041",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/grass_flowers.png",
+      "bytes": 174,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "ea524c6974ad6203f46a3e68a360883d0d53dbbdaa237f6cd81ac6fd5be6ea7c",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/grass_sprigs.png",
+      "bytes": 144,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "cf3b3df8669e621af90944fb3155b15f13adf203dda464e6149d7318f3660713",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/hero.png",
+      "bytes": 238,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "39b7c35f414e086b9c7e0cd2b34693ae370e5382a05b4dbb9964cef20f9769c8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/kenney_tiles.tres",
+      "bytes": 1144,
+      "dimensions": null,
+      "rgba": false,
+      "sha256": "5fc28176abeea643cb4dfef4b277b818eb6d3af90aed99167cdb184210e921a8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/log.png",
+      "bytes": 178,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "4e64ae7ed028b443d8823ccbbb18b1b90b568b8ce34fb24b24bf07e8582853b5",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/mushrooms.png",
+      "bytes": 197,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "0d55333ffe4c1d3be705978bdf1c176a871c25a6bde232dfba5c359b1a433294",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/rake.png",
+      "bytes": 184,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "5b5b45a7f2f756fe0251f84281ae5733b4bcff2b7167d432414c638a722fcc36",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/rpg_hero.png",
+      "bytes": 206,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "b8a0a9376c1c3398a059a1e3226e8f8d6839c1d73ac53ea37425340d762055fd",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/sign.png",
+      "bytes": 189,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "07b9cf1d4c066f91979688db542bb7fbca663608c98e596a0882d9c3838324a8",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/sword.png",
+      "bytes": 164,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "4958c3b09a0d41b3f21741476274855ab2242b3240e5054657dbc0569c881215",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/town_sheet.png",
+      "bytes": 5042,
+      "dimensions": [
+        192,
+        176
+      ],
+      "rgba": false,
+      "sha256": "3a54d99ecde790d4fdea207a3644cf130fc56fa838f1beb1507c185a95b8e902",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/tree_green.png",
+      "bytes": 191,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "a8b6bdb8954e01dbe6abebaec6d3eedf4fcfeb825b7d982ed488c57a573fdaac",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/tree_orange.png",
+      "bytes": 191,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "57a64b241ad12af171fda9d081a6641c12c51d1a9648e8c5ad50f314e3d660e2",
+      "provenance": "CC0"
+    },
+    {
+      "path": "vendor/cc0_topdown/dungeon/game/art/kenney/vendor_npc.png",
+      "bytes": 230,
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgba": false,
+      "sha256": "377b35acbce5129e8167df1f5d1d0420805990962a37a30f5784b88b81a40ec2",
+      "provenance": "CC0"
     }
   ]
 }
