@@ -5,6 +5,7 @@ const SN_ROSTER: Array[Dictionary] = [
 	{"name": "Graver", "path": "res://sovereign_nodes_hd/resources/enemies/graver_sprite_frames.tres"},
 	{"name": "Obituary Wailer", "path": "res://sovereign_nodes_hd/resources/enemies/obituary_wailer_sprite_frames.tres"},
 	{"name": "Contract Breacher", "path": "res://sovereign_nodes_hd/resources/enemies/contract_breacher_sprite_frames.tres"},
+	{"name": "Grand Censor", "path": "res://sovereign_nodes_hd/resources/bosses/grand_censor_sprite_frames.tres"},
 ]
 
 const TPS_UNITS: Array[Dictionary] = [
@@ -121,6 +122,15 @@ func _build_sovereign_nodes_tab() -> Control:
 			stage.add_child(missing)
 
 		grid.add_child(card)
+
+	var hud_path := "res://sovereign_nodes_hd/ui/archival_hud_sheet.png"
+	if ResourceLoader.exists(hud_path):
+		var hud := TextureRect.new()
+		hud.texture = load(hud_path) as Texture2D
+		hud.custom_minimum_size = Vector2(0.0, 180.0)
+		hud.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		hud.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		root.add_child(hud)
 	return root
 
 func _set_sn_anim(anim_name: StringName) -> void:
@@ -299,5 +309,19 @@ func _build_pathfinder_god_tab() -> Control:
 		hud_rect.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		hud_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		vbox.add_child(hud_rect)
+
+	var pieces := HBoxContainer.new()
+	pieces.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	vbox.add_child(pieces)
+	for i in range(1, 10):
+		var piece_path := "res://pathfinder_god_hd/ui/eldritch_hud_piece_%02d.png" % i
+		if not ResourceLoader.exists(piece_path):
+			continue
+		var piece := TextureRect.new()
+		piece.texture = load(piece_path) as Texture2D
+		piece.custom_minimum_size = Vector2(96.0, 96.0)
+		piece.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		piece.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		pieces.add_child(piece)
 
 	return scroll
