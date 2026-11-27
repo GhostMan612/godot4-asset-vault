@@ -8,6 +8,8 @@ func _ready() -> void:
 	vframes = 2
 	billboard = BaseMaterial3D.BILLBOARD_FIXED_Y
 	texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+	alpha_cut = SpriteBase3D.ALPHA_CUT_DISCARD
+	alpha_scissor_threshold = 0.5
 
 func update_facing_for_camera(cam: Camera3D, unit_yaw_rad: float) -> void:
 	facing_yaw_rad = unit_yaw_rad

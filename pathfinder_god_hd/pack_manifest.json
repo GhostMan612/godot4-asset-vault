@@ -1,6 +1,6 @@
 {
   "pack": "pathfinder_god_hd",
-  "generated_at": "2026-11-26T21:51:43.709568+00:00",
+  "generated_at": "2026-11-27T11:44:34.853017+00:00",
   "tokens": [
     "tokens/hero_occult_investigator.png",
     "tokens/hero_eldritch_scholar.png",
@@ -13,14 +13,14 @@
   ],
   "ui": [
     "ui/eldritch_hud_sheet.png",
-    "ui/hud_piece_01.png",
-    "ui/hud_piece_02.png",
-    "ui/hud_piece_03.png",
-    "ui/hud_piece_04.png",
-    "ui/hud_piece_05.png",
-    "ui/hud_piece_06.png",
-    "ui/hud_piece_07.png",
-    "ui/hud_piece_08.png",
-    "ui/hud_piece_09.png"
+    "ui/eldritch_hud_piece_01.png",
+    "ui/eldritch_hud_piece_02.png",
+    "ui/eldritch_hud_piece_03.png",
+    "ui/eldritch_hud_piece_04.png",
+    "ui/eldritch_hud_piece_05.png",
+    "ui/eldritch_hud_piece_06.png",
+    "ui/eldritch_hud_piece_07.png",
+    "ui/eldritch_hud_piece_08.png",
+    "ui/eldritch_hud_piece_09.png"
   ]
 }

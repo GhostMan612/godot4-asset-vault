@@ -1,0 +1,56 @@
+{
+  "pack": "sovereign_nodes_hd",
+  "generated_at": "2026-11-27T11:44:33.941841+00:00",
+  "roster": [
+    {
+      "id": "archivist",
+      "category": "characters",
+      "sheet": "sprites/characters/archivist_anim.png",
+      "sprite_frames": "resources/characters/archivist_sprite_frames.tres",
+      "cell_size": 256,
+      "grid": "4x2"
+    },
+    {
+      "id": "graver",
+      "category": "enemies",
+      "sheet": "sprites/enemies/graver_anim.png",
+      "sprite_frames": "resources/enemies/graver_sprite_frames.tres",
+      "cell_size": 256,
+      "grid": "4x2"
+    },
+    {
+      "id": "obituary_wailer",
+      "category": "enemies",
+      "sheet": "sprites/enemies/obituary_wailer_anim.png",
+      "sprite_frames": "resources/enemies/obituary_wailer_sprite_frames.tres",
+      "cell_size": 256,
+      "grid": "4x2"
+    },
+    {
+      "id": "contract_breacher",
+      "category": "enemies",
+      "sheet": "sprites/enemies/contract_breacher_anim.png",
+      "sprite_frames": "resources/enemies/contract_breacher_sprite_frames.tres",
+      "cell_size": 256,
+      "grid": "4x2"
+    },
+    {
+      "id": "grand_censor",
+      "category": "bosses",
+      "sheet": "sprites/bosses/grand_censor_anim.png",
+      "sprite_frames": "resources/bosses/grand_censor_sprite_frames.tres",
+      "cell_size": 256,
+      "grid": "4x2"
+    }
+  ],
+  "ui": [
+    "ui/archival_hud_sheet.png",
+    "ui/archival_hud_piece_01.png",
+    "ui/archival_hud_piece_02.png",
+    "ui/archival_hud_piece_03.png",
+    "ui/archival_hud_piece_04.png",
+    "ui/archival_hud_piece_05.png",
+    "ui/archival_hud_piece_06.png",
+    "ui/archival_hud_piece_07.png"
+  ]
+}

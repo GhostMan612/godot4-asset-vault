@@ -1,0 +1,39 @@
+{
+  "pack": "tacplanshooter_hd_8dir",
+  "generated_at": "2026-11-27T11:44:34.280281+00:00",
+  "units": [
+    {
+      "id": "operative_carbine",
+      "atlas": "sprites/units_8dir/operative_carbine_8dir.png",
+      "material": "resources/units_8dir/operative_carbine_8dir_mat.tres",
+      "directions": [
+        "S",
+        "SW",
+        "W",
+        "NW",
+        "N",
+        "NE",
+        "E",
+        "SE"
+      ]
+    },
+    {
+      "id": "opfor_enforcer",
+      "atlas": "sprites/units_8dir/opfor_enforcer_8dir.png",
+      "material": "resources/units_8dir/opfor_enforcer_8dir_mat.tres",
+      "directions": [
+        "S",
+        "SW",
+        "W",
+        "NW",
+        "N",
+        "NE",
+        "E",
+        "SE"
+      ]
+    }
+  ],
+  "scripts": [
+    "scripts/sprite3d_8dir_billboard.gd"
+  ]
+}
