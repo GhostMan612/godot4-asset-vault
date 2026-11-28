@@ -371,6 +371,62 @@ def pack_cues(arguments: dict) -> dict:
     }
 
 
+def _foundry_module():
+    module_path = ROOT / "studio_service" / "android_apk_bundle.py"
+    if not module_path.exists():
+        raise FileNotFoundError(f"Missing foundry module: {module_path}")
+    spec = importlib.util.spec_from_file_location("android_apk_bundle", module_path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def _foundry_output(value: str | None) -> Path | None:
+    if not value:
+        return None
+    path = Path(value)
+    return path if path.is_absolute() else ROOT / path
+
+
+def foundry_apk_bundle(arguments: dict) -> dict:
+    module = _foundry_module()
+    return module.generate_android_apk_package(
+        app_name=str(arguments.get("app_name", "SovereignApp")),
+        package_id=str(arguments.get("package_id", "com.sovereign.app")),
+        genre=str(arguments.get("genre", "tactical")),
+        brief=str(arguments.get("brief", "")),
+        output_dir=_foundry_output(arguments.get("output_dir")),
+    )
+
+
+def foundry_background(arguments: dict) -> dict:
+    module = _foundry_module()
+    out = _foundry_output(arguments.get("output_path")) or (ROOT / "generated_bundles" / "background.png")
+    return module.generate_background_asset(
+        app_name=str(arguments.get("app_name", "SovereignApp")),
+        theme_prompt=str(arguments.get("prompt", "dark gothic archive")),
+        width=int(arguments.get("width", 1080)),
+        height=int(arguments.get("height", 1920)),
+        output_path=out,
+    )
+
+
+def foundry_sfx(arguments: dict) -> dict:
+    module = _foundry_module()
+    out = _foundry_output(arguments.get("output_path")) or (ROOT / "generated_bundles" / "sfx.wav")
+    return module.synthesize_ui_sfx(str(arguments.get("kind", "tap")), out)
+
+
+def foundry_bgm(arguments: dict) -> dict:
+    module = _foundry_module()
+    out = _foundry_output(arguments.get("output_path")) or (ROOT / "generated_bundles" / "bgm.wav")
+    return module.synthesize_bgm_loop(
+        str(arguments.get("track_type", "title_theme")),
+        out,
+        duration_s=float(arguments.get("duration_s", 8.0)),
+    )
+
+
 def generate_sheet_image(arguments: dict) -> dict:
     backend_env = os.environ.get("IMAGE_BACKEND", "").strip().lower()
     if backend_env not in ("comfyui", "diffusers"):
@@ -510,6 +566,57 @@ TOOLS: dict[str, dict] = {
             },
         },
         "handler": generate_sheet_image,
+    },
+    "generate_android_apk_package": {
+        "description": "Generate a Play-Store-ready Android asset bundle ZIP from an app brief.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "app_name": {"type": "string"},
+                "package_id": {"type": "string"},
+                "genre": {"type": "string"},
+                "brief": {"type": "string"},
+                "output_dir": {"type": "string"},
+            },
+        },
+        "handler": foundry_apk_bundle,
+    },
+    "generate_background_asset": {
+        "description": "Generate a themed background image via local diffusion or procedural fallback.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "app_name": {"type": "string"},
+                "prompt": {"type": "string"},
+                "width": {"type": "integer"},
+                "height": {"type": "integer"},
+                "output_path": {"type": "string"},
+            },
+        },
+        "handler": foundry_background,
+    },
+    "synthesize_ui_sfx": {
+        "description": "Generate a mastered mobile UI sound effect (tap/swipe/confirm/back/error/unlock).",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "kind": {"type": "string"},
+                "output_path": {"type": "string"},
+            },
+        },
+        "handler": foundry_sfx,
+    },
+    "synthesize_bgm_loop": {
+        "description": "Generate a seamless -16 LUFS music loop (title_theme/menu_ambient/gameplay_bgm).",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "track_type": {"type": "string"},
+                "duration_s": {"type": "number"},
+                "output_path": {"type": "string"},
+            },
+        },
+        "handler": foundry_bgm,
     },
 }
 
